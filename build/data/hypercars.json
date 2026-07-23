@@ -1,0 +1,7378 @@
+{
+  "cars": [
+    {
+      "slug": "yangwang-u9-xtreme",
+      "name": "Yangwang U9 Xtreme",
+      "short": "U9 Xtreme",
+      "manufacturer": "Yangwang (BYD)",
+      "category": "hyper-ev",
+      "cc": "CN",
+      "statusText": "Limited run · 30 units",
+      "headline": "World's fastest production car (308.4 mph, Papenburg). Formerly 'U9 Track Edition'.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,978 hp",
+          "imperial": "2,978 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "496 km/h",
+          "imperial": "308 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.90 s",
+          "imperial": "1.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric, 1200V",
+          "imperial": "Quad-motor electric, 1200V",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$1,500,000",
+          "imperial": "$1,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "30 units",
+          "imperial": "30 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Yangwang U9",
+      "core": {
+        "power_hp": 2978,
+        "topspeed_mph": 308,
+        "zero60_s": 1.9,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "koenigsegg-gemera",
+      "name": "Koenigsegg Gemera",
+      "short": "Gemera",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "In production",
+      "headline": "5.0L twin-turbo V8 + Dark Matter e-motor (hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,300 hp",
+          "imperial": "2,300 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "401 km/h",
+          "imperial": "249 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.90 s",
+          "imperial": "1.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8 + Dark Matter e-motor (hybrid)",
+          "imperial": "5.0L twin-turbo V8 + Dark Matter e-motor (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$1,700,000",
+          "imperial": "$1,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg Gemera",
+      "core": {
+        "power_hp": 2300,
+        "topspeed_mph": 249,
+        "zero60_s": 1.9,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "giamaro-katla",
+      "name": "Giamaro Automobili Katla",
+      "short": "Katla",
+      "manufacturer": "Giamaro Automobili",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Prototype · deliveries 2025",
+      "headline": "Deliveries projected 2027. Wiki article may not exist yet - verify.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,127 hp",
+          "imperial": "2,127 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,450 kg",
+          "imperial": "3,197 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "7.0L quad-turbo V12, RWD",
+          "imperial": "7.0L quad-turbo V12, RWD",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$2,800,000",
+          "imperial": "$2,800,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "100 units",
+          "imperial": "100 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Giamaro Katla",
+      "core": {
+        "power_hp": 2127,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": 1450,
+        "year": 2025,
+        "years": "2025 (unreleased)"
+      }
+    },
+    {
+      "slug": "rimac-nevera-r",
+      "name": "Rimac Nevera R",
+      "short": "Nevera R",
+      "manufacturer": "Rimac",
+      "category": "hyper-ev",
+      "cc": "HR",
+      "statusText": "In production",
+      "headline": "Quad-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,107 hp",
+          "imperial": "2,107 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "415 km/h",
+          "imperial": "258 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.66 s",
+          "imperial": "1.66 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$2,400,000",
+          "imperial": "$2,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Rimac Nevera",
+      "core": {
+        "power_hp": 2107,
+        "topspeed_mph": 258,
+        "zero60_s": 1.66,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "hennessey-venom-f5-evolution",
+      "name": "Hennessey Venom F5 Evolution",
+      "short": "Venom F5 Evolution",
+      "manufacturer": "Hennessey",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "Next-gen F5; all future F5 builds get Evolution spec.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,031 hp",
+          "imperial": "2,031 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "483 km/h",
+          "imperial": "300 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,385 kg",
+          "imperial": "3,053 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.6L twin-turbo V8 (Fury)",
+          "imperial": "6.6L twin-turbo V8 (Fury)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$2,400,000",
+          "imperial": "$2,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Hennessey Venom F5",
+      "core": {
+        "power_hp": 2031,
+        "topspeed_mph": 300,
+        "zero60_s": null,
+        "weight_kg": 1385,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "lotus-evija",
+      "name": "Lotus Evija",
+      "short": "Evija",
+      "manufacturer": "Lotus",
+      "category": "hyper-ev",
+      "cc": "GB",
+      "statusText": "Limited run · 130 units",
+      "headline": "Quad-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,011 hp",
+          "imperial": "2,011 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.90 s",
+          "imperial": "2.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,680 kg",
+          "imperial": "3,704 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$2,100,000",
+          "imperial": "$2,100,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lotus Evija",
+      "core": {
+        "power_hp": 2011,
+        "topspeed_mph": 217,
+        "zero60_s": 2.9,
+        "weight_kg": 1680,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "drako-dragon",
+      "name": "Drako Dragon",
+      "short": "Dragon",
+      "manufacturer": "Drako",
+      "category": "hyper-ev",
+      "cc": "US",
+      "statusText": "Concept",
+      "headline": "FLAG: production status unconfirmed / borderline SUV-GT. Raw-hp view only.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "2,000 hp",
+          "imperial": "2,000 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "322 km/h",
+          "imperial": "200 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$290,000",
+          "imperial": "$290,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Drako Motors",
+      "core": {
+        "power_hp": 2000,
+        "topspeed_mph": 200,
+        "zero60_s": null,
+        "weight_kg": null,
+        "year": 2022,
+        "years": "2022 (unreleased)"
+      }
+    },
+    {
+      "slug": "aspark-owl",
+      "name": "Aspark Owl",
+      "short": "Owl",
+      "manufacturer": "Aspark",
+      "category": "hyper-ev",
+      "cc": "JP",
+      "statusText": "Limited run · 50 units",
+      "headline": "Quad-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,980 hp",
+          "imperial": "1,980 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "401 km/h",
+          "imperial": "249 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.72 s",
+          "imperial": "1.72 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,900 kg",
+          "imperial": "4,189 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$3,200,000",
+          "imperial": "$3,200,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Aspark Owl",
+      "core": {
+        "power_hp": 1980,
+        "topspeed_mph": 249,
+        "zero60_s": 1.72,
+        "weight_kg": 1900,
+        "year": 2020,
+        "years": "2020–present"
+      }
+    },
+    {
+      "slug": "rimac-nevera",
+      "name": "Rimac Nevera",
+      "short": "Nevera",
+      "manufacturer": "Rimac",
+      "category": "hyper-ev",
+      "cc": "HR",
+      "statusText": "Limited run · 150 units",
+      "headline": "Quad-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,888 hp",
+          "imperial": "1,888 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "415 km/h",
+          "imperial": "258 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.85 s",
+          "imperial": "1.85 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "2,150 kg",
+          "imperial": "4,740 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2021)",
+          "metric": "$2,200,000",
+          "imperial": "$2,200,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2021",
+          "imperial": "2021",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Rimac Nevera",
+      "core": {
+        "power_hp": 1888,
+        "topspeed_mph": 258,
+        "zero60_s": 1.85,
+        "weight_kg": 2150,
+        "year": 2021,
+        "years": "2021–present"
+      }
+    },
+    {
+      "slug": "pininfarina-b95",
+      "name": "Automobili Pininfarina B95",
+      "short": "B95",
+      "manufacturer": "Automobili Pininfarina",
+      "category": "hyper-ev",
+      "cc": "IT",
+      "statusText": "Limited run · 10 units",
+      "headline": "Open-top hyper-barchetta. Figure well-established; not re-checked this pass.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,877 hp",
+          "imperial": "1,877 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "299 km/h",
+          "imperial": "186 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.00 s",
+          "imperial": "2.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric (barchetta)",
+          "imperial": "Quad-motor electric (barchetta)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$4,400,000",
+          "imperial": "$4,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "10 units",
+          "imperial": "10 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Automobili Pininfarina B95",
+      "core": {
+        "power_hp": 1877,
+        "topspeed_mph": 186,
+        "zero60_s": 2.0,
+        "weight_kg": null,
+        "year": 2024,
+        "years": "2024–present"
+      }
+    },
+    {
+      "slug": "pininfarina-battista",
+      "name": "Automobili Pininfarina Battista",
+      "short": "Battista",
+      "manufacturer": "Automobili Pininfarina",
+      "category": "hyper-ev",
+      "cc": "IT",
+      "statusText": "Limited run · 150 units",
+      "headline": "Quad-motor electric (Rimac drivetrain)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,874 hp",
+          "imperial": "1,874 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.79 s",
+          "imperial": "1.79 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "2,200 kg",
+          "imperial": "4,850 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric (Rimac drivetrain)",
+          "imperial": "Quad-motor electric (Rimac drivetrain)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$2,200,000",
+          "imperial": "$2,200,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Pininfarina Battista",
+      "core": {
+        "power_hp": 1874,
+        "topspeed_mph": 217,
+        "zero60_s": 1.79,
+        "weight_kg": 2200,
+        "year": 2022,
+        "years": "2022–present"
+      }
+    },
+    {
+      "slug": "zenvo-aurora-tur",
+      "name": "Zenvo Aurora Tur",
+      "short": "Aurora Tur",
+      "manufacturer": "Zenvo",
+      "category": "hypercar",
+      "cc": "DK",
+      "statusText": "Prototype · deliveries 2027",
+      "headline": "Validation prototype at Goodwood 2026; deliveries H2 2027. Most powerful V12 road car.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,850 hp",
+          "imperial": "1,850 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "418 km/h",
+          "imperial": "260 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,548 kg",
+          "imperial": "3,413 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.6L quad-turbo V12 + 3 e-motors (AWD hybrid)",
+          "imperial": "6.6L quad-turbo V12 + 3 e-motors (AWD hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$2,830,000",
+          "imperial": "$2,830,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2027",
+          "imperial": "2027",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "50 units",
+          "imperial": "50 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Zenvo Aurora",
+      "core": {
+        "power_hp": 1850,
+        "topspeed_mph": 260,
+        "zero60_s": 2.3,
+        "weight_kg": 1548,
+        "year": 2027,
+        "years": "2027 (unreleased)"
+      }
+    },
+    {
+      "slug": "bugatti-bolide",
+      "name": "Bugatti Bolide",
+      "short": "Bolide",
+      "manufacturer": "Bugatti",
+      "category": "track-only",
+      "cc": "FR",
+      "statusText": "Limited run · 40 units",
+      "headline": "8.0L quad-turbo W16",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,825 hp",
+          "imperial": "1,825 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "380 km/h",
+          "imperial": "236 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.20 s",
+          "imperial": "2.20 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,450 kg",
+          "imperial": "3,197 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$4,700,000",
+          "imperial": "$4,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Bolide",
+      "core": {
+        "power_hp": 1825,
+        "topspeed_mph": 236,
+        "zero60_s": 2.2,
+        "weight_kg": 1450,
+        "year": 2024,
+        "years": "2024–2025"
+      }
+    },
+    {
+      "slug": "hennessey-venom-f5",
+      "name": "Hennessey Venom F5",
+      "short": "Venom F5",
+      "manufacturer": "Hennessey",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "6.6L twin-turbo V8 (\"Fury\")",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,817 hp",
+          "imperial": "1,817 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "483 km/h",
+          "imperial": "300 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,360 kg",
+          "imperial": "2,998 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.6L twin-turbo V8 (\"Fury\")",
+          "imperial": "6.6L twin-turbo V8 (\"Fury\")",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2021)",
+          "metric": "$2,100,000",
+          "imperial": "$2,100,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2021",
+          "imperial": "2021",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Hennessey Venom F5",
+      "core": {
+        "power_hp": 1817,
+        "topspeed_mph": 300,
+        "zero60_s": 2.4,
+        "weight_kg": 1360,
+        "year": 2021,
+        "years": "2021–present"
+      }
+    },
+    {
+      "slug": "bugatti-tourbillon",
+      "name": "Bugatti Tourbillon",
+      "short": "Tourbillon",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "In production",
+      "headline": "8.3L NA V16 + 3 e-motors (hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,775 hp",
+          "imperial": "1,775 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "446 km/h",
+          "imperial": "277 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.00 s",
+          "imperial": "2.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.3L NA V16 + 3 e-motors (hybrid)",
+          "imperial": "8.3L NA V16 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$4,000,000",
+          "imperial": "$4,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Tourbillon",
+      "core": {
+        "power_hp": 1775,
+        "topspeed_mph": 277,
+        "zero60_s": 2.0,
+        "weight_kg": null,
+        "year": 2026,
+        "years": "2026–present"
+      }
+    },
+    {
+      "slug": "ssc-tuatara",
+      "name": "SSC North America Tuatara",
+      "short": "Tuatara",
+      "manufacturer": "SSC North America",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "5.9L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,750 hp",
+          "imperial": "1,750 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "475 km/h",
+          "imperial": "295 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,247 kg",
+          "imperial": "2,749 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.9L twin-turbo V8",
+          "imperial": "5.9L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$1,600,000",
+          "imperial": "$1,600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "SSC Tuatara",
+      "core": {
+        "power_hp": 1750,
+        "topspeed_mph": 295,
+        "zero60_s": 2.5,
+        "weight_kg": 1247,
+        "year": 2020,
+        "years": "2020–present"
+      }
+    },
+    {
+      "slug": "koenigsegg-sadairs-spear",
+      "name": "Koenigsegg Jesko Sadair's Spear",
+      "short": "Jesko Sadair's Spear",
+      "manufacturer": "Koenigsegg",
+      "category": "track-only",
+      "cc": "SE",
+      "statusText": "Limited run",
+      "headline": "Hardcore track Jesko. Confirm exact hp and wiki anchor.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,625 hp",
+          "imperial": "1,625 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,350 kg",
+          "imperial": "2,976 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8",
+          "imperial": "5.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg Jesko",
+      "core": {
+        "power_hp": 1625,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": 1350,
+        "year": 2024,
+        "years": "2024–present"
+      }
+    },
+    {
+      "slug": "koenigsegg-jesko",
+      "name": "Koenigsegg Jesko",
+      "short": "Jesko",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Limited run · 125 units",
+      "headline": "5.0L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,600 hp",
+          "imperial": "1,600 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "483 km/h",
+          "imperial": "300 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,420 kg",
+          "imperial": "3,131 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8",
+          "imperial": "5.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$3,000,000",
+          "imperial": "$3,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg Jesko",
+      "core": {
+        "power_hp": 1600,
+        "topspeed_mph": 300,
+        "zero60_s": 2.5,
+        "weight_kg": 1420,
+        "year": 2022,
+        "years": "2022–present"
+      }
+    },
+    {
+      "slug": "koenigsegg-chimera",
+      "name": "Koenigsegg Chimera",
+      "short": "Chimera",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "One-off · 1 unit",
+      "headline": "True one-of-one, built for FIA president. A curio, not a buyable model.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,600 hp",
+          "imperial": "1,600 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,295 kg",
+          "imperial": "2,855 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8 (Jesko engine, CC850 gearbox)",
+          "imperial": "5.0L twin-turbo V8 (Jesko engine, CC850 gearbox)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "1 units",
+          "imperial": "1 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg Chimera",
+      "core": {
+        "power_hp": 1600,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": 1295,
+        "year": 2024,
+        "years": "2024–2023"
+      }
+    },
+    {
+      "slug": "bugatti-chiron-super-sport",
+      "name": "Bugatti Chiron Super Sport",
+      "short": "Chiron Super Sport",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Sold out · ended 2024",
+      "headline": "8.0L quad-turbo W16",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,578 hp",
+          "imperial": "1,578 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "439 km/h",
+          "imperial": "273 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,980 kg",
+          "imperial": "4,365 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2021)",
+          "metric": "$3,900,000",
+          "imperial": "$3,900,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2021",
+          "imperial": "2021",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Chiron",
+      "core": {
+        "power_hp": 1578,
+        "topspeed_mph": 273,
+        "zero60_s": 2.3,
+        "weight_kg": 1980,
+        "year": 2021,
+        "years": "2021–2024"
+      }
+    },
+    {
+      "slug": "bugatti-mistral",
+      "name": "Bugatti W16 Mistral",
+      "short": "W16 Mistral",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Limited run · 99 units",
+      "headline": "8.0L quad-turbo W16 (roadster)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,578 hp",
+          "imperial": "1,578 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "420 km/h",
+          "imperial": "261 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16 (roadster)",
+          "imperial": "8.0L quad-turbo W16 (roadster)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$5,000,000",
+          "imperial": "$5,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti W16 Mistral",
+      "core": {
+        "power_hp": 1578,
+        "topspeed_mph": 261,
+        "zero60_s": 2.3,
+        "weight_kg": 1977,
+        "year": 2024,
+        "years": "2024–2025"
+      }
+    },
+    {
+      "slug": "koenigsegg-regera",
+      "name": "Koenigsegg Regera",
+      "short": "Regera",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Sold out · 80 built",
+      "headline": "5.0L twin-turbo V8 + 3 e-motors (hybrid, Direct Drive)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,500 hp",
+          "imperial": "1,500 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "404 km/h",
+          "imperial": "251 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,590 kg",
+          "imperial": "3,505 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8 + 3 e-motors (hybrid, Direct Drive)",
+          "imperial": "5.0L twin-turbo V8 + 3 e-motors (hybrid, Direct Drive)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2016)",
+          "metric": "$1,900,000",
+          "imperial": "$1,900,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2016",
+          "imperial": "2016",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg Regera",
+      "core": {
+        "power_hp": 1500,
+        "topspeed_mph": 251,
+        "zero60_s": 2.8,
+        "weight_kg": 1590,
+        "year": 2016,
+        "years": "2016–2022"
+      }
+    },
+    {
+      "slug": "bugatti-chiron",
+      "name": "Bugatti Chiron",
+      "short": "Chiron",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Sold out · 500 built",
+      "headline": "8.0L quad-turbo W16",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,479 hp",
+          "imperial": "1,479 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "420 km/h",
+          "imperial": "261 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,996 kg",
+          "imperial": "4,400 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2016)",
+          "metric": "$3,000,000",
+          "imperial": "$3,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2016",
+          "imperial": "2016",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Chiron",
+      "core": {
+        "power_hp": 1479,
+        "topspeed_mph": 261,
+        "zero60_s": 2.4,
+        "weight_kg": 1996,
+        "year": 2016,
+        "years": "2016–2024"
+      }
+    },
+    {
+      "slug": "zenvo-aurora-agil",
+      "name": "Zenvo Aurora Agil",
+      "short": "Aurora Agil",
+      "manufacturer": "Zenvo",
+      "category": "hypercar",
+      "cc": "DK",
+      "statusText": "Prototype · deliveries 2027",
+      "headline": "Track-focused sister to the Tur.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,450 hp",
+          "imperial": "1,450 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "360 km/h",
+          "imperial": "224 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.6L quad-turbo V12 + 1 e-motor (RWD hybrid)",
+          "imperial": "6.6L quad-turbo V12 + 1 e-motor (RWD hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$2,830,000",
+          "imperial": "$2,830,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2027",
+          "imperial": "2027",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "50 units",
+          "imperial": "50 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Zenvo Aurora",
+      "core": {
+        "power_hp": 1450,
+        "topspeed_mph": 224,
+        "zero60_s": 2.5,
+        "weight_kg": null,
+        "year": 2027,
+        "years": "2027 (unreleased)"
+      }
+    },
+    {
+      "slug": "czinger-21c",
+      "name": "Czinger 21C",
+      "short": "21C",
+      "manufacturer": "Czinger",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "Limited run · 80 units",
+      "headline": "2.9L twin-turbo flat-crank V8 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,350 hp",
+          "imperial": "1,350 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "407 km/h",
+          "imperial": "253 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.90 s",
+          "imperial": "1.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,250 kg",
+          "imperial": "2,756 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "2.9L twin-turbo flat-crank V8 hybrid",
+          "imperial": "2.9L twin-turbo flat-crank V8 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$2,000,000",
+          "imperial": "$2,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Czinger 21C",
+      "core": {
+        "power_hp": 1350,
+        "topspeed_mph": 253,
+        "zero60_s": 1.9,
+        "weight_kg": 1250,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "koenigsegg-one1",
+      "name": "Koenigsegg One:1",
+      "short": "One:1",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Sold out · 7 built",
+      "headline": "5.0L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,341 hp",
+          "imperial": "1,341 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "439 km/h",
+          "imperial": "273 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,360 kg",
+          "imperial": "2,998 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8",
+          "imperial": "5.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2014)",
+          "metric": "$2,850,000",
+          "imperial": "$2,850,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2014",
+          "imperial": "2014",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg One:1",
+      "core": {
+        "power_hp": 1341,
+        "topspeed_mph": 273,
+        "zero60_s": 2.8,
+        "weight_kg": 1360,
+        "year": 2014,
+        "years": "2014–2015"
+      }
+    },
+    {
+      "slug": "nio-ep9",
+      "name": "NIO EP9",
+      "short": "EP9",
+      "manufacturer": "NIO",
+      "category": "hyper-ev",
+      "cc": "CN",
+      "statusText": "Sold out · 16 built",
+      "headline": "Quad-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,341 hp",
+          "imperial": "1,341 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "312 km/h",
+          "imperial": "194 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,735 kg",
+          "imperial": "3,825 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2016)",
+          "metric": "$1,480,000",
+          "imperial": "$1,480,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2016",
+          "imperial": "2016",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "NIO EP9",
+      "core": {
+        "power_hp": 1341,
+        "topspeed_mph": 194,
+        "zero60_s": 2.7,
+        "weight_kg": 1735,
+        "year": 2016,
+        "years": "2016–2018"
+      }
+    },
+    {
+      "slug": "mclaren-w1",
+      "name": "McLaren W1",
+      "short": "W1",
+      "manufacturer": "McLaren",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Limited run · 399 units",
+      "headline": "4.0L twin-turbo V8 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,258 hp",
+          "imperial": "1,258 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,399 kg",
+          "imperial": "3,084 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 hybrid",
+          "imperial": "4.0L twin-turbo V8 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$2,100,000",
+          "imperial": "$2,100,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren W1",
+      "core": {
+        "power_hp": 1258,
+        "topspeed_mph": 217,
+        "zero60_s": 2.7,
+        "weight_kg": 1399,
+        "year": 2026,
+        "years": "2026–present"
+      }
+    },
+    {
+      "slug": "hennessey-venom-gt",
+      "name": "Hennessey Venom GT",
+      "short": "Venom GT",
+      "manufacturer": "Hennessey",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "Sold out · 13 built",
+      "headline": "7.0L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,244 hp",
+          "imperial": "1,244 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "435 km/h",
+          "imperial": "270 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,244 kg",
+          "imperial": "2,743 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "7.0L twin-turbo V8",
+          "imperial": "7.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2011)",
+          "metric": "$1,200,000",
+          "imperial": "$1,200,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2011",
+          "imperial": "2011",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Hennessey Venom GT",
+      "core": {
+        "power_hp": 1244,
+        "topspeed_mph": 270,
+        "zero60_s": 2.7,
+        "weight_kg": 1244,
+        "year": 2011,
+        "years": "2011–2017"
+      }
+    },
+    {
+      "slug": "lucid-air-sapphire",
+      "name": "Lucid Air Sapphire",
+      "short": "Air Sapphire",
+      "manufacturer": "Lucid",
+      "category": "performance-sedan",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "Tri-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,234 hp",
+          "imperial": "1,234 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "330 km/h",
+          "imperial": "205 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.89 s",
+          "imperial": "1.89 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "2,360 kg",
+          "imperial": "5,203 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Tri-motor electric",
+          "imperial": "Tri-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$250,000",
+          "imperial": "$250,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lucid Air",
+      "core": {
+        "power_hp": 1234,
+        "topspeed_mph": 205,
+        "zero60_s": 1.89,
+        "weight_kg": 2360,
+        "year": 2024,
+        "years": "2024–present"
+      }
+    },
+    {
+      "slug": "rimac-concept-one",
+      "name": "Rimac Concept One",
+      "short": "Concept One",
+      "manufacturer": "Rimac",
+      "category": "hyper-ev",
+      "cc": "HR",
+      "statusText": "Sold out · 8 built",
+      "headline": "Quad-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,224 hp",
+          "imperial": "1,224 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "356 km/h",
+          "imperial": "221 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,850 kg",
+          "imperial": "4,079 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2016)",
+          "metric": "$980,000",
+          "imperial": "$980,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2016",
+          "imperial": "2016",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Rimac Concept One",
+      "core": {
+        "power_hp": 1224,
+        "topspeed_mph": 221,
+        "zero60_s": 2.5,
+        "weight_kg": 1850,
+        "year": 2016,
+        "years": "2016–2017"
+      }
+    },
+    {
+      "slug": "bugatti-veyron-super-sport",
+      "name": "Bugatti Veyron 16.4 Super Sport",
+      "short": "Veyron 16.4 Super Sport",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Classic · 48 built",
+      "headline": "8.0L quad-turbo W16",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,184 hp",
+          "imperial": "1,184 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "431 km/h",
+          "imperial": "268 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,888 kg",
+          "imperial": "4,162 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2010)",
+          "metric": "$2,400,000",
+          "imperial": "$2,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2010",
+          "imperial": "2010",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Veyron",
+      "core": {
+        "power_hp": 1184,
+        "topspeed_mph": 268,
+        "zero60_s": 2.5,
+        "weight_kg": 1888,
+        "year": 2010,
+        "years": "2010–2015"
+      }
+    },
+    {
+      "slug": "ferrari-f80",
+      "name": "Ferrari F80",
+      "short": "F80",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 799 units",
+      "headline": "3.0L twin-turbo V6 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,184 hp",
+          "imperial": "1,184 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.15 s",
+          "imperial": "2.15 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,525 kg",
+          "imperial": "3,362 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.0L twin-turbo V6 hybrid",
+          "imperial": "3.0L twin-turbo V6 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$3,900,000",
+          "imperial": "$3,900,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari F80",
+      "core": {
+        "power_hp": 1184,
+        "topspeed_mph": 217,
+        "zero60_s": 2.15,
+        "weight_kg": 1525,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "zenvo-tsr-s",
+      "name": "Zenvo TSR-S",
+      "short": "TSR-S",
+      "manufacturer": "Zenvo",
+      "category": "hypercar",
+      "cc": "DK",
+      "statusText": "Limited run",
+      "headline": "5.8L twin-supercharged V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,177 hp",
+          "imperial": "1,177 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "325 km/h",
+          "imperial": "202 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,495 kg",
+          "imperial": "3,296 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.8L twin-supercharged V8",
+          "imperial": "5.8L twin-supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2019)",
+          "metric": "$1,500,000",
+          "imperial": "$1,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2019",
+          "imperial": "2019",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Zenvo TSR-S",
+      "core": {
+        "power_hp": 1177,
+        "topspeed_mph": 202,
+        "zero60_s": 2.8,
+        "weight_kg": 1495,
+        "year": 2019,
+        "years": "2019–present"
+      }
+    },
+    {
+      "slug": "koenigsegg-agera-rs",
+      "name": "Koenigsegg Agera RS",
+      "short": "Agera RS",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Sold out · 25 built",
+      "headline": "5.0L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,160 hp",
+          "imperial": "1,160 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "447 km/h",
+          "imperial": "278 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,395 kg",
+          "imperial": "3,075 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8",
+          "imperial": "5.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2015)",
+          "metric": "$2,500,000",
+          "imperial": "$2,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2015",
+          "imperial": "2015",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg Agera",
+      "core": {
+        "power_hp": 1160,
+        "topspeed_mph": 278,
+        "zero60_s": 2.8,
+        "weight_kg": 1395,
+        "year": 2015,
+        "years": "2015–2018"
+      }
+    },
+    {
+      "slug": "aston-martin-valkyrie",
+      "name": "Aston Martin Valkyrie",
+      "short": "Valkyrie",
+      "manufacturer": "Aston Martin",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Sold out · 150 coupes",
+      "headline": "6.5L NA V12 + e-motor (Cosworth hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,140 hp",
+          "imperial": "1,140 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,030 kg",
+          "imperial": "2,271 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 + e-motor (Cosworth hybrid)",
+          "imperial": "6.5L NA V12 + e-motor (Cosworth hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$3,000,000",
+          "imperial": "$3,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Aston Martin Valkyrie",
+      "core": {
+        "power_hp": 1140,
+        "topspeed_mph": 217,
+        "zero60_s": 2.5,
+        "weight_kg": 1030,
+        "year": 2022,
+        "years": "2022–2024"
+      }
+    },
+    {
+      "slug": "lamborghini-fenomeno",
+      "name": "Lamborghini Fenomeno",
+      "short": "Fenomeno",
+      "manufacturer": "Lamborghini",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 29 units",
+      "headline": "Revuelto-based few-off. Not re-checked - confirm figure/units.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,080 hp",
+          "imperial": "1,080 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "351 km/h",
+          "imperial": "218 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 + 3 e-motors (hybrid)",
+          "imperial": "6.5L NA V12 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$3,500,000",
+          "imperial": "$3,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "29 units",
+          "imperial": "29 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Fenomeno",
+      "core": {
+        "power_hp": 1080,
+        "topspeed_mph": 218,
+        "zero60_s": 2.4,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "aston-martin-valhalla",
+      "name": "Aston Martin Valhalla",
+      "short": "Valhalla",
+      "manufacturer": "Aston Martin",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "In production",
+      "headline": "4.0L twin-turbo V8 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,064 hp",
+          "imperial": "1,064 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,655 kg",
+          "imperial": "3,649 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 hybrid",
+          "imperial": "4.0L twin-turbo V8 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$800,000",
+          "imperial": "$800,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Aston Martin Valhalla",
+      "core": {
+        "power_hp": 1064,
+        "topspeed_mph": 217,
+        "zero60_s": 2.5,
+        "weight_kg": 1655,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "mercedes-amg-one",
+      "name": "Mercedes-AMG One",
+      "short": "One",
+      "manufacturer": "Mercedes-AMG",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Sold out · 275 built",
+      "headline": "1.6L turbo V6 F1 hybrid (4 e-motors)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,049 hp",
+          "imperial": "1,049 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "352 km/h",
+          "imperial": "219 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.90 s",
+          "imperial": "2.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,695 kg",
+          "imperial": "3,737 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "1.6L turbo V6 F1 hybrid (4 e-motors)",
+          "imperial": "1.6L turbo V6 F1 hybrid (4 e-motors)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$2,700,000",
+          "imperial": "$2,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Mercedes-AMG One",
+      "core": {
+        "power_hp": 1049,
+        "topspeed_mph": 219,
+        "zero60_s": 2.9,
+        "weight_kg": 1695,
+        "year": 2022,
+        "years": "2022–2025"
+      }
+    },
+    {
+      "slug": "ferrari-849-testarossa",
+      "name": "Ferrari 849 Testarossa",
+      "short": "849 Testarossa",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "In production",
+      "headline": "SF90 successor. New - verify wiki title resolves.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,036 hp",
+          "imperial": "1,036 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "330 km/h",
+          "imperial": "205 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "imperial": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari 849 Testarossa",
+      "core": {
+        "power_hp": 1036,
+        "topspeed_mph": 205,
+        "zero60_s": 2.3,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "ferrari-sf90-xx-stradale",
+      "name": "Ferrari SF90 XX Stradale",
+      "short": "SF90 XX Stradale",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 799 units",
+      "headline": "Track-biased SF90. Shares wiki with SF90 - variant caution.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,036 hp",
+          "imperial": "1,036 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "320 km/h",
+          "imperial": "199 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,560 kg",
+          "imperial": "3,439 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "imperial": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$770,000",
+          "imperial": "$770,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "799 units",
+          "imperial": "799 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari SF90",
+      "core": {
+        "power_hp": 1036,
+        "topspeed_mph": 199,
+        "zero60_s": 2.3,
+        "weight_kg": 1560,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "mclaren-speedtail",
+      "name": "McLaren Speedtail",
+      "short": "Speedtail",
+      "manufacturer": "McLaren",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Sold out · 106 built",
+      "headline": "4.0L twin-turbo V8 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,035 hp",
+          "imperial": "1,035 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "402 km/h",
+          "imperial": "250 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.90 s",
+          "imperial": "2.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,430 kg",
+          "imperial": "3,153 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 hybrid",
+          "imperial": "4.0L twin-turbo V8 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$2,250,000",
+          "imperial": "$2,250,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren Speedtail",
+      "core": {
+        "power_hp": 1035,
+        "topspeed_mph": 250,
+        "zero60_s": 2.9,
+        "weight_kg": 1430,
+        "year": 2020,
+        "years": "2020"
+      }
+    },
+    {
+      "slug": "tesla-model-s-plaid",
+      "name": "Tesla Model S Plaid",
+      "short": "Model S Plaid",
+      "manufacturer": "Tesla",
+      "category": "performance-sedan",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "Tri-motor electric",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,020 hp",
+          "imperial": "1,020 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "322 km/h",
+          "imperial": "200 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.99 s",
+          "imperial": "1.99 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "2,162 kg",
+          "imperial": "4,766 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Tri-motor electric",
+          "imperial": "Tri-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2021)",
+          "metric": "$89,990",
+          "imperial": "$89,990",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2021",
+          "imperial": "2021",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Tesla Model S",
+      "core": {
+        "power_hp": 1020,
+        "topspeed_mph": 200,
+        "zero60_s": 1.99,
+        "weight_kg": 2162,
+        "year": 2021,
+        "years": "2021–present"
+      }
+    },
+    {
+      "slug": "bugatti-veyron",
+      "name": "Bugatti Veyron 16.4",
+      "short": "Veyron 16.4",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Classic · 252 coupes",
+      "headline": "8.0L quad-turbo W16",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,001 hp",
+          "imperial": "1,001 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "407 km/h",
+          "imperial": "253 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,888 kg",
+          "imperial": "4,162 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2005)",
+          "metric": "$1,700,000",
+          "imperial": "$1,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2005",
+          "imperial": "2005",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Veyron",
+      "core": {
+        "power_hp": 1001,
+        "topspeed_mph": 253,
+        "zero60_s": 2.5,
+        "weight_kg": 1888,
+        "year": 2005,
+        "years": "2005–2011"
+      }
+    },
+    {
+      "slug": "lamborghini-revuelto",
+      "name": "Lamborghini Revuelto",
+      "short": "Revuelto",
+      "manufacturer": "Lamborghini",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "In production",
+      "headline": "6.5L NA V12 + 3 e-motors (hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,001 hp",
+          "imperial": "1,001 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "351 km/h",
+          "imperial": "218 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,772 kg",
+          "imperial": "3,907 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 + 3 e-motors (hybrid)",
+          "imperial": "6.5L NA V12 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$608,000",
+          "imperial": "$608,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Revuelto",
+      "core": {
+        "power_hp": 1001,
+        "topspeed_mph": 218,
+        "zero60_s": 2.5,
+        "weight_kg": 1772,
+        "year": 2024,
+        "years": "2024–present"
+      }
+    },
+    {
+      "slug": "ferrari-sf90-stradale",
+      "name": "Ferrari SF90 Stradale",
+      "short": "SF90 Stradale",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "In production",
+      "headline": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "986 hp",
+          "imperial": "986 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "340 km/h",
+          "imperial": "211 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,570 kg",
+          "imperial": "3,461 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "imperial": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$507,000",
+          "imperial": "$507,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari SF90",
+      "core": {
+        "power_hp": 986,
+        "topspeed_mph": 211,
+        "zero60_s": 2.5,
+        "weight_kg": 1570,
+        "year": 2020,
+        "years": "2020–present"
+      }
+    },
+    {
+      "slug": "laferrari",
+      "name": "Ferrari LaFerrari",
+      "short": "LaFerrari",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Sold out · 499 built",
+      "headline": "6.3L NA V12 + HY-KERS e-motor (hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "950 hp",
+          "imperial": "950 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.60 s",
+          "imperial": "2.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,585 kg",
+          "imperial": "3,494 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.3L NA V12 + HY-KERS e-motor (hybrid)",
+          "imperial": "6.3L NA V12 + HY-KERS e-motor (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2013)",
+          "metric": "$1,420,000",
+          "imperial": "$1,420,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2013",
+          "imperial": "2013",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "LaFerrari",
+      "core": {
+        "power_hp": 950,
+        "topspeed_mph": 217,
+        "zero60_s": 2.6,
+        "weight_kg": 1585,
+        "year": 2013,
+        "years": "2013–2016"
+      }
+    },
+    {
+      "slug": "mclaren-p1",
+      "name": "McLaren P1",
+      "short": "P1",
+      "manufacturer": "McLaren",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Sold out · 375 built",
+      "headline": "3.8L twin-turbo V8 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "903 hp",
+          "imperial": "903 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,490 kg",
+          "imperial": "3,285 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.8L twin-turbo V8 hybrid",
+          "imperial": "3.8L twin-turbo V8 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2013)",
+          "metric": "$1,150,000",
+          "imperial": "$1,150,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2013",
+          "imperial": "2013",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren P1",
+      "core": {
+        "power_hp": 903,
+        "topspeed_mph": 217,
+        "zero60_s": 2.7,
+        "weight_kg": 1490,
+        "year": 2013,
+        "years": "2013–2015"
+      }
+    },
+    {
+      "slug": "porsche-918-spyder",
+      "name": "Porsche 918 Spyder",
+      "short": "918 Spyder",
+      "manufacturer": "Porsche",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Sold out · 918 built",
+      "headline": "4.6L NA V8 + 2 e-motors (hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "887 hp",
+          "imperial": "887 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "344 km/h",
+          "imperial": "214 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,675 kg",
+          "imperial": "3,693 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.6L NA V8 + 2 e-motors (hybrid)",
+          "imperial": "4.6L NA V8 + 2 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2013)",
+          "metric": "$845,000",
+          "imperial": "$845,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2013",
+          "imperial": "2013",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Porsche 918 Spyder",
+      "core": {
+        "power_hp": 887,
+        "topspeed_mph": 214,
+        "zero60_s": 2.5,
+        "weight_kg": 1675,
+        "year": 2013,
+        "years": "2013–2015"
+      }
+    },
+    {
+      "slug": "pagani-utopia",
+      "name": "Pagani Utopia",
+      "short": "Utopia",
+      "manufacturer": "Pagani",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 99 coupes",
+      "headline": "6.0L twin-turbo V12 (AMG)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "864 hp",
+          "imperial": "864 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.00 s",
+          "imperial": "3.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,280 kg",
+          "imperial": "2,822 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.0L twin-turbo V12 (AMG)",
+          "imperial": "6.0L twin-turbo V12 (AMG)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$2,500,000",
+          "imperial": "$2,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Pagani Utopia",
+      "core": {
+        "power_hp": 864,
+        "topspeed_mph": 217,
+        "zero60_s": 3.0,
+        "weight_kg": 1280,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "pagani-huayra-r",
+      "name": "Pagani Huayra R",
+      "short": "Huayra R",
+      "manufacturer": "Pagani",
+      "category": "track-only",
+      "cc": "IT",
+      "statusText": "Limited run · track only",
+      "headline": "6.0L NA V12 (HWA race engine)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "838 hp",
+          "imperial": "838 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,050 kg",
+          "imperial": "2,315 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.0L NA V12 (HWA race engine)",
+          "imperial": "6.0L NA V12 (HWA race engine)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2021)",
+          "metric": "$3,100,000",
+          "imperial": "$3,100,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2021",
+          "imperial": "2021",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Pagani Huayra",
+      "core": {
+        "power_hp": 838,
+        "topspeed_mph": 217,
+        "zero60_s": 2.8,
+        "weight_kg": 1050,
+        "year": 2021,
+        "years": "2021–present"
+      }
+    },
+    {
+      "slug": "ferrari-296-gtb",
+      "name": "Ferrari 296 GTB",
+      "short": "296 GTB",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "In production",
+      "headline": "3.0L twin-turbo V6 hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "819 hp",
+          "imperial": "819 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "330 km/h",
+          "imperial": "205 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.90 s",
+          "imperial": "2.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,470 kg",
+          "imperial": "3,241 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.0L twin-turbo V6 hybrid",
+          "imperial": "3.0L twin-turbo V6 hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$322,000",
+          "imperial": "$322,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari 296",
+      "core": {
+        "power_hp": 819,
+        "topspeed_mph": 205,
+        "zero60_s": 2.9,
+        "weight_kg": 1470,
+        "year": 2022,
+        "years": "2022–present"
+      }
+    },
+    {
+      "slug": "lamborghini-sian",
+      "name": "Lamborghini Sián FKP 37",
+      "short": "Sián FKP 37",
+      "manufacturer": "Lamborghini",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Sold out · 82 built",
+      "headline": "6.5L NA V12 + supercapacitor e-motor (mild hybrid)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "807 hp",
+          "imperial": "807 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,595 kg",
+          "imperial": "3,516 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 + supercapacitor e-motor (mild hybrid)",
+          "imperial": "6.5L NA V12 + supercapacitor e-motor (mild hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$3,600,000",
+          "imperial": "$3,600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Sián",
+      "core": {
+        "power_hp": 807,
+        "topspeed_mph": 217,
+        "zero60_s": 2.8,
+        "weight_kg": 1595,
+        "year": 2020,
+        "years": "2020–2021"
+      }
+    },
+    {
+      "slug": "lamborghini-countach-lpi-800-4",
+      "name": "Lamborghini Countach LPI 800-4",
+      "short": "Countach LPI 800-4",
+      "manufacturer": "Lamborghini",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Sold out · 112 built",
+      "headline": "6.5L NA V12 + supercapacitor hybrid",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "803 hp",
+          "imperial": "803 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "356 km/h",
+          "imperial": "221 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,595 kg",
+          "imperial": "3,516 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 + supercapacitor hybrid",
+          "imperial": "6.5L NA V12 + supercapacitor hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$2,640,000",
+          "imperial": "$2,640,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Countach LPI 800-4",
+      "core": {
+        "power_hp": 803,
+        "topspeed_mph": 221,
+        "zero60_s": 2.8,
+        "weight_kg": 1595,
+        "year": 2022,
+        "years": "2022"
+      }
+    },
+    {
+      "slug": "apollo-ie",
+      "name": "Apollo Intensa Emozione",
+      "short": "Intensa Emozione",
+      "manufacturer": "Apollo",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Limited run · 10 units",
+      "headline": "6.3L NA V12",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "780 hp",
+          "imperial": "780 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "335 km/h",
+          "imperial": "208 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,250 kg",
+          "imperial": "2,756 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.3L NA V12",
+          "imperial": "6.3L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2018)",
+          "metric": "$2,700,000",
+          "imperial": "$2,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2018",
+          "imperial": "2018",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Apollo Intensa Emozione",
+      "core": {
+        "power_hp": 780,
+        "topspeed_mph": 208,
+        "zero60_s": 2.7,
+        "weight_kg": 1250,
+        "year": 2018,
+        "years": "2018–2020"
+      }
+    },
+    {
+      "slug": "mclaren-750s",
+      "name": "McLaren 750S",
+      "short": "750S",
+      "manufacturer": "McLaren",
+      "category": "supercar",
+      "cc": "GB",
+      "statusText": "In production",
+      "headline": "4.0L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "740 hp",
+          "imperial": "740 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "332 km/h",
+          "imperial": "206 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,389 kg",
+          "imperial": "3,062 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8",
+          "imperial": "4.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$331,000",
+          "imperial": "$331,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren 750S",
+      "core": {
+        "power_hp": 740,
+        "topspeed_mph": 206,
+        "zero60_s": 2.7,
+        "weight_kg": 1389,
+        "year": 2024,
+        "years": "2024–present"
+      }
+    },
+    {
+      "slug": "de-tomaso-p72",
+      "name": "De Tomaso P72",
+      "short": "P72",
+      "manufacturer": "De Tomaso",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 72 units",
+      "headline": "Retro coachbuilt; long-delayed, now entering production.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "700 hp",
+          "imperial": "700 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L supercharged V8",
+          "imperial": "5.0L supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$1,100,000",
+          "imperial": "$1,100,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "72 units",
+          "imperial": "72 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "De Tomaso P72",
+      "core": {
+        "power_hp": 700,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "ford-gt",
+      "name": "Ford GT",
+      "short": "GT",
+      "manufacturer": "Ford",
+      "category": "supercar",
+      "cc": "US",
+      "statusText": "Sold out · 1,350 built",
+      "headline": "3.5L twin-turbo V6 (EcoBoost)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "660 hp",
+          "imperial": "660 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "348 km/h",
+          "imperial": "216 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.00 s",
+          "imperial": "3.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,385 kg",
+          "imperial": "3,053 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.5L twin-turbo V6 (EcoBoost)",
+          "imperial": "3.5L twin-turbo V6 (EcoBoost)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2017)",
+          "metric": "$450,000",
+          "imperial": "$450,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2017",
+          "imperial": "2017",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ford GT (second generation)",
+      "core": {
+        "power_hp": 660,
+        "topspeed_mph": 216,
+        "zero60_s": 3.0,
+        "weight_kg": 1385,
+        "year": 2017,
+        "years": "2017–2022"
+      }
+    },
+    {
+      "slug": "gordon-murray-t50",
+      "name": "Gordon Murray Automotive T.50",
+      "short": "T.50",
+      "manufacturer": "Gordon Murray Automotive",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Limited run · 100 units",
+      "headline": "3.9L NA V12 (Cosworth, 12,100 rpm)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "654 hp",
+          "imperial": "654 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "364 km/h",
+          "imperial": "226 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "986 kg",
+          "imperial": "2,174 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.9L NA V12 (Cosworth, 12,100 rpm)",
+          "imperial": "3.9L NA V12 (Cosworth, 12,100 rpm)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$3,100,000",
+          "imperial": "$3,100,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Gordon Murray Automotive T.50",
+      "core": {
+        "power_hp": 654,
+        "topspeed_mph": 226,
+        "zero60_s": 2.8,
+        "weight_kg": 986,
+        "year": 2022,
+        "years": "2022–present"
+      }
+    },
+    {
+      "slug": "mclaren-f1",
+      "name": "McLaren F1",
+      "short": "F1",
+      "manufacturer": "McLaren",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Classic · 106 built",
+      "headline": "6.1L NA V12 (BMW)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "627 hp",
+          "imperial": "627 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "386 km/h",
+          "imperial": "240 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.20 s",
+          "imperial": "3.20 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,138 kg",
+          "imperial": "2,509 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.1L NA V12 (BMW)",
+          "imperial": "6.1L NA V12 (BMW)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1994)",
+          "metric": "$815,000",
+          "imperial": "$815,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1992",
+          "imperial": "1992",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren F1",
+      "core": {
+        "power_hp": 627,
+        "topspeed_mph": 240,
+        "zero60_s": 3.2,
+        "weight_kg": 1138,
+        "year": 1992,
+        "years": "1992–1998"
+      }
+    },
+    {
+      "slug": "maserati-mc20",
+      "name": "Maserati MC20",
+      "short": "MC20",
+      "manufacturer": "Maserati",
+      "category": "supercar",
+      "cc": "IT",
+      "statusText": "In production",
+      "headline": "3.0L twin-turbo V6 (Nettuno)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "621 hp",
+          "imperial": "621 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "325 km/h",
+          "imperial": "202 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.90 s",
+          "imperial": "2.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,500 kg",
+          "imperial": "3,307 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.0L twin-turbo V6 (Nettuno)",
+          "imperial": "3.0L twin-turbo V6 (Nettuno)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$212,000",
+          "imperial": "$212,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Maserati MC20",
+      "core": {
+        "power_hp": 621,
+        "topspeed_mph": 202,
+        "zero60_s": 2.9,
+        "weight_kg": 1500,
+        "year": 2020,
+        "years": "2020–present"
+      }
+    },
+    {
+      "slug": "gordon-murray-t33",
+      "name": "Gordon Murray Automotive T.33",
+      "short": "T.33",
+      "manufacturer": "Gordon Murray Automotive",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Limited run · 100 units",
+      "headline": "More usable sibling to the T.50.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "615 hp",
+          "imperial": "615 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,100 kg",
+          "imperial": "2,425 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.9L NA V12 (Cosworth)",
+          "imperial": "3.9L NA V12 (Cosworth)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$1,650,000",
+          "imperial": "$1,650,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "100 units",
+          "imperial": "100 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Gordon Murray Automotive T.33",
+      "core": {
+        "power_hp": 615,
+        "topspeed_mph": 208,
+        "zero60_s": null,
+        "weight_kg": 1100,
+        "year": 2024,
+        "years": "2024–present"
+      }
+    },
+    {
+      "slug": "lexus-lfa",
+      "name": "Lexus LFA",
+      "short": "LFA",
+      "manufacturer": "Lexus",
+      "category": "supercar",
+      "cc": "JP",
+      "statusText": "Classic · 500 built",
+      "headline": "4.8L NA V10",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "552 hp",
+          "imperial": "552 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "325 km/h",
+          "imperial": "202 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.60 s",
+          "imperial": "3.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,480 kg",
+          "imperial": "3,263 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.8L NA V10",
+          "imperial": "4.8L NA V10",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2010)",
+          "metric": "$375,000",
+          "imperial": "$375,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2010",
+          "imperial": "2010",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lexus LFA",
+      "core": {
+        "power_hp": 552,
+        "topspeed_mph": 202,
+        "zero60_s": 3.6,
+        "weight_kg": 1480,
+        "year": 2010,
+        "years": "2010–2012"
+      }
+    },
+    {
+      "slug": "ferrari-f40",
+      "name": "Ferrari F40",
+      "short": "F40",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 1311 built",
+      "headline": "First road car to top 200 mph.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "471 hp",
+          "imperial": "471 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "323 km/h",
+          "imperial": "201 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.80 s",
+          "imperial": "3.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,100 kg",
+          "imperial": "2,425 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "2.9L twin-turbo V8",
+          "imperial": "2.9L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1987)",
+          "metric": "$400,000",
+          "imperial": "$400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1987",
+          "imperial": "1987",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "1,311 units",
+          "imperial": "1,311 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari F40",
+      "core": {
+        "power_hp": 471,
+        "topspeed_mph": 201,
+        "zero60_s": 3.8,
+        "weight_kg": 1100,
+        "year": 1987,
+        "years": "1987–1992"
+      }
+    },
+    {
+      "slug": "ferrari-f50",
+      "name": "Ferrari F50",
+      "short": "F50",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 349 built",
+      "headline": "4.7L NA V12 (F1-derived)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "513 hp",
+          "imperial": "513 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "325 km/h",
+          "imperial": "202 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.70 s",
+          "imperial": "3.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,230 kg",
+          "imperial": "2,712 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.7L NA V12 (F1-derived)",
+          "imperial": "4.7L NA V12 (F1-derived)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1995)",
+          "metric": "$475,000",
+          "imperial": "$475,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1995",
+          "imperial": "1995",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "349 units",
+          "imperial": "349 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari F50",
+      "core": {
+        "power_hp": 513,
+        "topspeed_mph": 202,
+        "zero60_s": 3.7,
+        "weight_kg": 1230,
+        "year": 1995,
+        "years": "1995–1997"
+      }
+    },
+    {
+      "slug": "ferrari-enzo",
+      "name": "Ferrari Enzo",
+      "short": "Enzo",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 400 built",
+      "headline": "6.0L NA V12",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "651 hp",
+          "imperial": "651 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "351 km/h",
+          "imperial": "218 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.30 s",
+          "imperial": "3.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,365 kg",
+          "imperial": "3,009 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.0L NA V12",
+          "imperial": "6.0L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2002)",
+          "metric": "$659,000",
+          "imperial": "$659,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2002",
+          "imperial": "2002",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "400 units",
+          "imperial": "400 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari Enzo",
+      "core": {
+        "power_hp": 651,
+        "topspeed_mph": 218,
+        "zero60_s": 3.3,
+        "weight_kg": 1365,
+        "year": 2002,
+        "years": "2002–2004"
+      }
+    },
+    {
+      "slug": "ferrari-288-gto",
+      "name": "Ferrari 288 GTO",
+      "short": "288 GTO",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 272 built",
+      "headline": "2.9L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "400 hp",
+          "imperial": "400 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "304 km/h",
+          "imperial": "189 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "4.80 s",
+          "imperial": "4.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,160 kg",
+          "imperial": "2,557 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "2.9L twin-turbo V8",
+          "imperial": "2.9L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1984)",
+          "metric": "$83,000",
+          "imperial": "$83,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1984",
+          "imperial": "1984",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "272 units",
+          "imperial": "272 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari 288 GTO",
+      "core": {
+        "power_hp": 400,
+        "topspeed_mph": 189,
+        "zero60_s": 4.8,
+        "weight_kg": 1160,
+        "year": 1984,
+        "years": "1984–1987"
+      }
+    },
+    {
+      "slug": "porsche-carrera-gt",
+      "name": "Porsche Carrera GT",
+      "short": "Carrera GT",
+      "manufacturer": "Porsche",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Classic · 1270 built",
+      "headline": "5.7L NA V10",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "603 hp",
+          "imperial": "603 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "330 km/h",
+          "imperial": "205 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.50 s",
+          "imperial": "3.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,380 kg",
+          "imperial": "3,042 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.7L NA V10",
+          "imperial": "5.7L NA V10",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2004)",
+          "metric": "$448,000",
+          "imperial": "$448,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2004",
+          "imperial": "2004",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "1,270 units",
+          "imperial": "1,270 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Porsche Carrera GT",
+      "core": {
+        "power_hp": 603,
+        "topspeed_mph": 205,
+        "zero60_s": 3.5,
+        "weight_kg": 1380,
+        "year": 2004,
+        "years": "2004–2007"
+      }
+    },
+    {
+      "slug": "porsche-959",
+      "name": "Porsche 959",
+      "short": "959",
+      "manufacturer": "Porsche",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Classic · 337 built",
+      "headline": "2.85L twin-turbo flat-6",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "444 hp",
+          "imperial": "444 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "317 km/h",
+          "imperial": "197 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.60 s",
+          "imperial": "3.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,450 kg",
+          "imperial": "3,197 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "2.85L twin-turbo flat-6",
+          "imperial": "2.85L twin-turbo flat-6",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1986)",
+          "metric": "$225,000",
+          "imperial": "$225,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1986",
+          "imperial": "1986",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "337 units",
+          "imperial": "337 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Porsche 959",
+      "core": {
+        "power_hp": 444,
+        "topspeed_mph": 197,
+        "zero60_s": 3.6,
+        "weight_kg": 1450,
+        "year": 1986,
+        "years": "1986–1993"
+      }
+    },
+    {
+      "slug": "jaguar-xj220",
+      "name": "Jaguar XJ220",
+      "short": "XJ220",
+      "manufacturer": "Jaguar",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Classic · 275 built",
+      "headline": "Fastest production car in the world, 1992.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "542 hp",
+          "imperial": "542 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.60 s",
+          "imperial": "3.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,470 kg",
+          "imperial": "3,241 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.5L twin-turbo V6",
+          "imperial": "3.5L twin-turbo V6",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1992)",
+          "metric": "$650,000",
+          "imperial": "$650,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1992",
+          "imperial": "1992",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "275 units",
+          "imperial": "275 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Jaguar XJ220",
+      "core": {
+        "power_hp": 542,
+        "topspeed_mph": 217,
+        "zero60_s": 3.6,
+        "weight_kg": 1470,
+        "year": 1992,
+        "years": "1992–1994"
+      }
+    },
+    {
+      "slug": "bugatti-eb110",
+      "name": "Bugatti EB110 SS",
+      "short": "EB110 SS",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Classic · 33 built",
+      "headline": "3.5L quad-turbo V12",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "603 hp",
+          "imperial": "603 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "348 km/h",
+          "imperial": "216 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.20 s",
+          "imperial": "3.20 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,620 kg",
+          "imperial": "3,571 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.5L quad-turbo V12",
+          "imperial": "3.5L quad-turbo V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1991)",
+          "metric": "$350,000",
+          "imperial": "$350,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1991",
+          "imperial": "1991",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "33 units",
+          "imperial": "33 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti EB110",
+      "core": {
+        "power_hp": 603,
+        "topspeed_mph": 216,
+        "zero60_s": 3.2,
+        "weight_kg": 1620,
+        "year": 1991,
+        "years": "1991–1995"
+      }
+    },
+    {
+      "slug": "mercedes-clk-gtr",
+      "name": "Mercedes-Benz CLK GTR",
+      "short": "CLK GTR",
+      "manufacturer": "Mercedes-Benz",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Classic · 28 built",
+      "headline": "Road-going Le Mans homologation car.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "604 hp",
+          "imperial": "604 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "344 km/h",
+          "imperial": "214 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.80 s",
+          "imperial": "3.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,440 kg",
+          "imperial": "3,175 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.9L NA V12",
+          "imperial": "6.9L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1998)",
+          "metric": "$1,547,000",
+          "imperial": "$1,547,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1998",
+          "imperial": "1998",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "28 units",
+          "imperial": "28 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Mercedes-Benz CLK GTR",
+      "core": {
+        "power_hp": 604,
+        "topspeed_mph": 214,
+        "zero60_s": 3.8,
+        "weight_kg": 1440,
+        "year": 1998,
+        "years": "1998–1999"
+      }
+    },
+    {
+      "slug": "mercedes-slr-mclaren",
+      "name": "Mercedes-Benz SLR McLaren",
+      "short": "SLR McLaren",
+      "manufacturer": "Mercedes-Benz",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Classic · 2157 built",
+      "headline": "5.4L supercharged V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "617 hp",
+          "imperial": "617 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "335 km/h",
+          "imperial": "208 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.80 s",
+          "imperial": "3.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,768 kg",
+          "imperial": "3,898 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.4L supercharged V8",
+          "imperial": "5.4L supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2003)",
+          "metric": "$455,000",
+          "imperial": "$455,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2003",
+          "imperial": "2003",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "2,157 units",
+          "imperial": "2,157 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Mercedes-Benz SLR McLaren",
+      "core": {
+        "power_hp": 617,
+        "topspeed_mph": 208,
+        "zero60_s": 3.8,
+        "weight_kg": 1768,
+        "year": 2003,
+        "years": "2003–2009"
+      }
+    },
+    {
+      "slug": "pagani-zonda",
+      "name": "Pagani Zonda Cinque",
+      "short": "Zonda Cinque",
+      "manufacturer": "Pagani",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 5 built",
+      "headline": "7.3L NA V12 (AMG)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "678 hp",
+          "imperial": "678 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.40 s",
+          "imperial": "3.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,210 kg",
+          "imperial": "2,668 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "7.3L NA V12 (AMG)",
+          "imperial": "7.3L NA V12 (AMG)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2009)",
+          "metric": "$1,400,000",
+          "imperial": "$1,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2009",
+          "imperial": "2009",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "5 units",
+          "imperial": "5 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Pagani Zonda",
+      "core": {
+        "power_hp": 678,
+        "topspeed_mph": 217,
+        "zero60_s": 3.4,
+        "weight_kg": 1210,
+        "year": 2009,
+        "years": "2009"
+      }
+    },
+    {
+      "slug": "mclaren-senna",
+      "name": "McLaren Senna",
+      "short": "Senna",
+      "manufacturer": "McLaren",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Limited run · 500 units",
+      "headline": "4.0L twin-turbo V8",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "789 hp",
+          "imperial": "789 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "335 km/h",
+          "imperial": "208 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,198 kg",
+          "imperial": "2,641 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8",
+          "imperial": "4.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2018)",
+          "metric": "$1,000,000",
+          "imperial": "$1,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2018",
+          "imperial": "2018",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "500 units",
+          "imperial": "500 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren Senna",
+      "core": {
+        "power_hp": 789,
+        "topspeed_mph": 208,
+        "zero60_s": 2.7,
+        "weight_kg": 1198,
+        "year": 2018,
+        "years": "2018–2019"
+      }
+    },
+    {
+      "slug": "mclaren-elva",
+      "name": "McLaren Elva",
+      "short": "Elva",
+      "manufacturer": "McLaren",
+      "category": "hypercar",
+      "cc": "GB",
+      "statusText": "Limited run · 149 units",
+      "headline": "Open cockpit, no roof or windscreen.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "804 hp",
+          "imperial": "804 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "327 km/h",
+          "imperial": "203 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.60 s",
+          "imperial": "2.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,269 kg",
+          "imperial": "2,798 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 (roadster)",
+          "imperial": "4.0L twin-turbo V8 (roadster)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$1,690,000",
+          "imperial": "$1,690,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "149 units",
+          "imperial": "149 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McLaren Elva",
+      "core": {
+        "power_hp": 804,
+        "topspeed_mph": 203,
+        "zero60_s": 2.6,
+        "weight_kg": 1269,
+        "year": 2020,
+        "years": "2020–2021"
+      }
+    },
+    {
+      "slug": "ferrari-daytona-sp3",
+      "name": "Ferrari Daytona SP3",
+      "short": "Daytona SP3",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 599 units",
+      "headline": "Highest-revving road-car V12 Ferrari has built.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "828 hp",
+          "imperial": "828 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "340 km/h",
+          "imperial": "211 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.85 s",
+          "imperial": "2.85 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,485 kg",
+          "imperial": "3,274 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12",
+          "imperial": "6.5L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$2,250,000",
+          "imperial": "$2,250,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "599 units",
+          "imperial": "599 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari Daytona SP3",
+      "core": {
+        "power_hp": 828,
+        "topspeed_mph": 211,
+        "zero60_s": 2.85,
+        "weight_kg": 1485,
+        "year": 2022,
+        "years": "2022–2025"
+      }
+    },
+    {
+      "slug": "ferrari-monza-sp1",
+      "name": "Ferrari Monza SP1",
+      "short": "Monza SP1",
+      "manufacturer": "Ferrari",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run",
+      "headline": "Icona-series speedster (SP2 is the two-seat version).",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "799 hp",
+          "imperial": "799 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "299 km/h",
+          "imperial": "186 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.90 s",
+          "imperial": "2.90 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,500 kg",
+          "imperial": "3,307 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 (speedster)",
+          "imperial": "6.5L NA V12 (speedster)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2019)",
+          "metric": "$1,750,000",
+          "imperial": "$1,750,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2019",
+          "imperial": "2019",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ferrari Monza SP1",
+      "core": {
+        "power_hp": 799,
+        "topspeed_mph": 186,
+        "zero60_s": 2.9,
+        "weight_kg": 1500,
+        "year": 2019,
+        "years": "2019–2021"
+      }
+    },
+    {
+      "slug": "lamborghini-veneno",
+      "name": "Lamborghini Veneno",
+      "short": "Veneno",
+      "manufacturer": "Lamborghini",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 14 units",
+      "headline": "6.5L NA V12",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "740 hp",
+          "imperial": "740 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "356 km/h",
+          "imperial": "221 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,450 kg",
+          "imperial": "3,197 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12",
+          "imperial": "6.5L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2013)",
+          "metric": "$4,500,000",
+          "imperial": "$4,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2013",
+          "imperial": "2013",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "14 units",
+          "imperial": "14 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Veneno",
+      "core": {
+        "power_hp": 740,
+        "topspeed_mph": 221,
+        "zero60_s": 2.8,
+        "weight_kg": 1450,
+        "year": 2013,
+        "years": "2013–2014"
+      }
+    },
+    {
+      "slug": "lamborghini-centenario",
+      "name": "Lamborghini Centenario",
+      "short": "Centenario",
+      "manufacturer": "Lamborghini",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Limited run · 40 units",
+      "headline": "6.5L NA V12",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "759 hp",
+          "imperial": "759 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,520 kg",
+          "imperial": "3,351 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12",
+          "imperial": "6.5L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2016)",
+          "metric": "$1,900,000",
+          "imperial": "$1,900,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2016",
+          "imperial": "2016",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "40 units",
+          "imperial": "40 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Centenario",
+      "core": {
+        "power_hp": 759,
+        "topspeed_mph": 217,
+        "zero60_s": 2.8,
+        "weight_kg": 1520,
+        "year": 2016,
+        "years": "2016–2017"
+      }
+    },
+    {
+      "slug": "lamborghini-essenza-scv12",
+      "name": "Lamborghini Essenza SCV12",
+      "short": "Essenza SCV12",
+      "manufacturer": "Lamborghini",
+      "category": "track-only",
+      "cc": "IT",
+      "statusText": "Limited run · 40 units",
+      "headline": "Most powerful NA V12 Lamborghini has built.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "830 hp",
+          "imperial": "830 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12",
+          "imperial": "6.5L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$2,600,000",
+          "imperial": "$2,600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "40 units",
+          "imperial": "40 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Lamborghini Essenza SCV12",
+      "core": {
+        "power_hp": 830,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": null,
+        "year": 2020,
+        "years": "2020–2021"
+      }
+    },
+    {
+      "slug": "aston-martin-vulcan",
+      "name": "Aston Martin Vulcan",
+      "short": "Vulcan",
+      "manufacturer": "Aston Martin",
+      "category": "track-only",
+      "cc": "GB",
+      "statusText": "Limited run · 24 units",
+      "headline": "7.0L NA V12",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "820 hp",
+          "imperial": "820 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,350 kg",
+          "imperial": "2,976 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "7.0L NA V12",
+          "imperial": "7.0L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2015)",
+          "metric": "$2,300,000",
+          "imperial": "$2,300,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2015",
+          "imperial": "2015",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "24 units",
+          "imperial": "24 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Aston Martin Vulcan",
+      "core": {
+        "power_hp": 820,
+        "topspeed_mph": 208,
+        "zero60_s": 2.9,
+        "weight_kg": 1350,
+        "year": 2015,
+        "years": "2015–2016"
+      }
+    },
+    {
+      "slug": "koenigsegg-cc850",
+      "name": "Koenigsegg CC850",
+      "short": "CC850",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Limited run · 70 units",
+      "headline": "Engager gearbox — manual feel with automatic capability.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,385 hp",
+          "imperial": "1,385 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,385 kg",
+          "imperial": "3,053 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8",
+          "imperial": "5.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$3,650,000",
+          "imperial": "$3,650,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "70 units",
+          "imperial": "70 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Koenigsegg CC850",
+      "core": {
+        "power_hp": 1385,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": 1385,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "bugatti-divo",
+      "name": "Bugatti Divo",
+      "short": "Divo",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Limited run · 40 units",
+      "headline": "Corner-focused Chiron derivative.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,479 hp",
+          "imperial": "1,479 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "380 km/h",
+          "imperial": "236 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,961 kg",
+          "imperial": "4,323 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2018)",
+          "metric": "$5,800,000",
+          "imperial": "$5,800,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2018",
+          "imperial": "2018",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "40 units",
+          "imperial": "40 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Divo",
+      "core": {
+        "power_hp": 1479,
+        "topspeed_mph": 236,
+        "zero60_s": 2.4,
+        "weight_kg": 1961,
+        "year": 2018,
+        "years": "2018–2021"
+      }
+    },
+    {
+      "slug": "bugatti-centodieci",
+      "name": "Bugatti Centodieci",
+      "short": "Centodieci",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Limited run · 10 units",
+      "headline": "EB110 tribute.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,578 hp",
+          "imperial": "1,578 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "380 km/h",
+          "imperial": "236 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,976 kg",
+          "imperial": "4,356 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2019)",
+          "metric": "$9,000,000",
+          "imperial": "$9,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2019",
+          "imperial": "2019",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "10 units",
+          "imperial": "10 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti Centodieci",
+      "core": {
+        "power_hp": 1578,
+        "topspeed_mph": 236,
+        "zero60_s": 2.4,
+        "weight_kg": 1976,
+        "year": 2019,
+        "years": "2019–2022"
+      }
+    },
+    {
+      "slug": "bugatti-la-voiture-noire",
+      "name": "Bugatti La Voiture Noire",
+      "short": "La Voiture Noire",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "One-off · 1 unit",
+      "headline": "One-off; among the most expensive new cars ever sold.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,479 hp",
+          "imperial": "1,479 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "420 km/h",
+          "imperial": "261 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2019)",
+          "metric": "$18,700,000",
+          "imperial": "$18,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2019",
+          "imperial": "2019",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "1 units",
+          "imperial": "1 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Bugatti La Voiture Noire",
+      "core": {
+        "power_hp": 1479,
+        "topspeed_mph": 261,
+        "zero60_s": 2.4,
+        "weight_kg": null,
+        "year": 2019,
+        "years": "2019"
+      }
+    },
+    {
+      "slug": "hispano-suiza-carmen",
+      "name": "Hispano Suiza Carmen Boulogne",
+      "short": "Carmen Boulogne",
+      "manufacturer": "Hispano Suiza",
+      "category": "hyper-ev",
+      "cc": "ES",
+      "statusText": "Limited run · 24 units",
+      "headline": "Boulogne; standard Carmen 1,005 hp.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,114 hp",
+          "imperial": "1,114 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "290 km/h",
+          "imperial": "180 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.60 s",
+          "imperial": "2.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,630 kg",
+          "imperial": "3,594 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Quad-motor electric",
+          "imperial": "Quad-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2019)",
+          "metric": "$1,650,000",
+          "imperial": "$1,650,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2019",
+          "imperial": "2019",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "24 units",
+          "imperial": "24 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Hispano-Suiza Carmen",
+      "core": {
+        "power_hp": 1114,
+        "topspeed_mph": 180,
+        "zero60_s": 2.6,
+        "weight_kg": 1630,
+        "year": 2019,
+        "years": "2019–2024"
+      }
+    },
+    {
+      "slug": "mcmurtry-speirling",
+      "name": "McMurtry Spéirling PURE",
+      "short": "Spéirling PURE",
+      "manufacturer": "McMurtry",
+      "category": "track-only",
+      "cc": "GB",
+      "statusText": "Limited run · 100 units",
+      "headline": "Fan car: ~2,000 kg downforce from rest. Goodwood hillclimb record holder.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,000 hp",
+          "imperial": "1,000 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "306 km/h",
+          "imperial": "190 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.55 s",
+          "imperial": "1.55 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,000 kg",
+          "imperial": "2,205 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Twin-motor electric + fan downforce",
+          "imperial": "Twin-motor electric + fan downforce",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$1,300,000",
+          "imperial": "$1,300,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "100 units",
+          "imperial": "100 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "McMurtry Spéirling",
+      "core": {
+        "power_hp": 1000,
+        "topspeed_mph": 190,
+        "zero60_s": 1.55,
+        "weight_kg": 1000,
+        "year": 2026,
+        "years": "2026–present"
+      }
+    },
+    {
+      "slug": "corvette-zr1",
+      "name": "Chevrolet Corvette ZR1",
+      "short": "Corvette ZR1",
+      "manufacturer": "Chevrolet",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "Most powerful V8 ever in a US production car.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,064 hp",
+          "imperial": "1,064 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "375 km/h",
+          "imperial": "233 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,665 kg",
+          "imperial": "3,671 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.5L twin-turbo flat-plane V8 (LT7)",
+          "imperial": "5.5L twin-turbo flat-plane V8 (LT7)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$175,000",
+          "imperial": "$175,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Chevrolet Corvette (C8)",
+      "core": {
+        "power_hp": 1064,
+        "topspeed_mph": 233,
+        "zero60_s": 2.3,
+        "weight_kg": 1665,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "corvette-zr1x",
+      "name": "Chevrolet Corvette ZR1X",
+      "short": "Corvette ZR1X",
+      "manufacturer": "Chevrolet",
+      "category": "hypercar",
+      "cc": "US",
+      "statusText": "In production",
+      "headline": "America's quickest production car. Verify wiki title.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,250 hp",
+          "imperial": "1,250 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "375 km/h",
+          "imperial": "233 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.00 s",
+          "imperial": "2.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,800 kg",
+          "imperial": "3,968 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Twin-turbo V8 + front e-axle (hybrid AWD)",
+          "imperial": "Twin-turbo V8 + front e-axle (hybrid AWD)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$210,000",
+          "imperial": "$210,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Chevrolet Corvette ZR1X",
+      "core": {
+        "power_hp": 1250,
+        "topspeed_mph": 233,
+        "zero60_s": 2.0,
+        "weight_kg": 1800,
+        "year": 2026,
+        "years": "2026–present"
+      }
+    },
+    {
+      "slug": "ford-mustang-gtd",
+      "name": "Ford Mustang GTD",
+      "short": "Mustang GTD",
+      "manufacturer": "Ford",
+      "category": "supercar",
+      "cc": "US",
+      "statusText": "Limited run",
+      "headline": "GT3-derived; sub-7:00 Nürburgring.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "815 hp",
+          "imperial": "815 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "325 km/h",
+          "imperial": "202 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.00 s",
+          "imperial": "3.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,710 kg",
+          "imperial": "3,770 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.2L supercharged V8",
+          "imperial": "5.2L supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$325,000",
+          "imperial": "$325,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Ford Mustang GTD",
+      "core": {
+        "power_hp": 815,
+        "topspeed_mph": 202,
+        "zero60_s": 3.0,
+        "weight_kg": 1710,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "praga-bohema",
+      "name": "Praga Bohema",
+      "short": "Bohema",
+      "manufacturer": "Praga",
+      "category": "track-only",
+      "cc": "CZ",
+      "statusText": "Limited run · 89 units",
+      "headline": "3.8L twin-turbo V6 (Nissan)",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "700 hp",
+          "imperial": "700 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "299 km/h",
+          "imperial": "186 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "982 kg",
+          "imperial": "2,165 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.8L twin-turbo V6 (Nissan)",
+          "imperial": "3.8L twin-turbo V6 (Nissan)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$1,420,000",
+          "imperial": "$1,420,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "89 units",
+          "imperial": "89 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Praga Bohema",
+      "core": {
+        "power_hp": 700,
+        "topspeed_mph": 186,
+        "zero60_s": 2.3,
+        "weight_kg": 982,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "rodin-fzero",
+      "name": "Rodin FZERO",
+      "short": "FZERO",
+      "manufacturer": "Rodin",
+      "category": "track-only",
+      "cc": "NZ",
+      "statusText": "Limited run · 27 units",
+      "headline": "Sub-F1 target weight, extreme downforce.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,176 hp",
+          "imperial": "1,176 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "362 km/h",
+          "imperial": "225 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "698 kg",
+          "imperial": "1,539 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L NA V10 + hybrid",
+          "imperial": "4.0L NA V10 + hybrid",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2023)",
+          "metric": "$1,800,000",
+          "imperial": "$1,800,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2023",
+          "imperial": "2023",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "27 units",
+          "imperial": "27 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Rodin FZERO",
+      "core": {
+        "power_hp": 1176,
+        "topspeed_mph": 225,
+        "zero60_s": null,
+        "weight_kg": 698,
+        "year": 2023,
+        "years": "2023–present"
+      }
+    },
+    {
+      "slug": "capricorn-01-zagato",
+      "name": "Capricorn 01 Zagato",
+      "short": "01 Zagato",
+      "manufacturer": "Capricorn",
+      "category": "hypercar",
+      "cc": "DE",
+      "statusText": "Prototype · deliveries 2026",
+      "headline": "German motorsport supplier's first complete car. Verify wiki title.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "900 hp",
+          "imperial": "900 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "360 km/h",
+          "imperial": "224 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.00 s",
+          "imperial": "3.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "V8",
+          "imperial": "V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$3,400,000",
+          "imperial": "$3,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "19 units",
+          "imperial": "19 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Capricorn 01 Zagato",
+      "core": {
+        "power_hp": 900,
+        "topspeed_mph": 224,
+        "zero60_s": 3.0,
+        "weight_kg": null,
+        "year": 2026,
+        "years": "2026 (unreleased)"
+      }
+    },
+    {
+      "slug": "nilu-27",
+      "name": "Nilu 27",
+      "short": "27",
+      "manufacturer": "Nilu",
+      "category": "hypercar",
+      "cc": "HR",
+      "statusText": "Prototype · deliveries 2024",
+      "headline": "By ex-Bugatti/Koenigsegg designer Sacha Selipanov. Verify wiki/figure.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,000 hp",
+          "imperial": "1,000 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,100 kg",
+          "imperial": "2,425 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12 (manual)",
+          "imperial": "6.5L NA V12 (manual)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2024)",
+          "metric": "$2,500,000",
+          "imperial": "$2,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2024",
+          "imperial": "2024",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "54 units",
+          "imperial": "54 units",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Nilu27",
+      "core": {
+        "power_hp": 1000,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": 1100,
+        "year": 2024,
+        "years": "2024 (unreleased)"
+      }
+    },
+    {
+      "slug": "xiaomi-su7-ultra",
+      "name": "Xiaomi SU7 Ultra",
+      "short": "SU7 Ultra",
+      "manufacturer": "Xiaomi",
+      "category": "performance-sedan",
+      "cc": "CN",
+      "statusText": "In production",
+      "headline": "FLAG: sedan, not a hypercar — raw-hp view only.",
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,548 hp",
+          "imperial": "1,548 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "1.98 s",
+          "imperial": "1.98 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "2,360 kg",
+          "imperial": "5,203 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "Tri-motor electric",
+          "imperial": "Tri-motor electric",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2025)",
+          "metric": "$73,000",
+          "imperial": "$73,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        }
+      ],
+      "wiki": "Xiaomi SU7",
+      "core": {
+        "power_hp": 1548,
+        "topspeed_mph": 217,
+        "zero60_s": 1.98,
+        "weight_kg": 2360,
+        "year": 2025,
+        "years": "2025–present"
+      }
+    },
+    {
+      "slug": "bugatti-veyron-grand-sport",
+      "name": "Bugatti Veyron 16.4 Grand Sport",
+      "short": "Veyron Grand Sport",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Classic · roadster",
+      "headline": "8.0L quad-turbo W16",
+      "wiki": "Bugatti Veyron",
+      "core": {
+        "power_hp": 1001,
+        "topspeed_mph": 253,
+        "zero60_s": 2.7,
+        "weight_kg": 1990,
+        "year": 2009,
+        "years": "2009–2015"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,001 hp",
+          "imperial": "1,001 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "407 km/h",
+          "imperial": "253 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,990 kg",
+          "imperial": "4,387 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2009)",
+          "metric": "$2,000,000",
+          "imperial": "$2,000,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2009",
+          "imperial": "2009",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-veyron-grand-sport-vitesse",
+      "name": "Bugatti Veyron 16.4 Grand Sport Vitesse",
+      "short": "Veyron Grand Sport Vitesse",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Classic · WR roadster",
+      "headline": "8.0L quad-turbo W16",
+      "wiki": "Bugatti Veyron",
+      "core": {
+        "power_hp": 1184,
+        "topspeed_mph": 255,
+        "zero60_s": 2.6,
+        "weight_kg": 1990,
+        "year": 2012,
+        "years": "2012–2015"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,184 hp",
+          "imperial": "1,184 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "410 km/h",
+          "imperial": "255 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.60 s",
+          "imperial": "2.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,990 kg",
+          "imperial": "4,387 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2012)",
+          "metric": "$2,500,000",
+          "imperial": "$2,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2012",
+          "imperial": "2012",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-chiron-pur-sport",
+      "name": "Bugatti Chiron Pur Sport",
+      "short": "Chiron Pur Sport",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Sold out · 60 built",
+      "headline": "8.0L quad-turbo W16",
+      "wiki": "Bugatti Chiron",
+      "core": {
+        "power_hp": 1479,
+        "topspeed_mph": 217,
+        "zero60_s": 2.3,
+        "weight_kg": 1976,
+        "year": 2020,
+        "years": "2020–2021"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,479 hp",
+          "imperial": "1,479 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "349 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,976 kg",
+          "imperial": "4,356 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$3,550,000",
+          "imperial": "$3,550,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "60 units",
+          "imperial": "60 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-chiron-super-sport-300",
+      "name": "Bugatti Chiron Super Sport 300+",
+      "short": "Chiron SS 300+",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Sold out · 30 built",
+      "headline": "8.0L quad-turbo W16",
+      "wiki": "Bugatti Chiron",
+      "core": {
+        "power_hp": 1578,
+        "topspeed_mph": 304,
+        "zero60_s": 2.4,
+        "weight_kg": 1975,
+        "year": 2019,
+        "years": "2019–2021"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,578 hp",
+          "imperial": "1,578 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "489 km/h",
+          "imperial": "304 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.40 s",
+          "imperial": "2.40 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,975 kg",
+          "imperial": "4,354 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2019)",
+          "metric": "$3,900,000",
+          "imperial": "$3,900,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2019",
+          "imperial": "2019",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "30 units",
+          "imperial": "30 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-chiron-profilee",
+      "name": "Bugatti Chiron Profilée",
+      "short": "Chiron Profilée",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "One-off · 1 unit",
+      "headline": "8.0L quad-turbo W16",
+      "wiki": "Bugatti Chiron",
+      "core": {
+        "power_hp": 1479,
+        "topspeed_mph": 236,
+        "zero60_s": 2.3,
+        "weight_kg": 1996,
+        "year": 2022,
+        "years": "2022"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,479 hp",
+          "imperial": "1,479 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "380 km/h",
+          "imperial": "236 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.30 s",
+          "imperial": "2.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,996 kg",
+          "imperial": "4,400 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$10,700,000",
+          "imperial": "$10,700,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "1 unit",
+          "imperial": "1 unit",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-eb110-gt",
+      "name": "Bugatti EB110 GT",
+      "short": "EB110 GT",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "Classic · 96 built",
+      "headline": "3.5L quad-turbo V12",
+      "wiki": "Bugatti EB110",
+      "core": {
+        "power_hp": 560,
+        "topspeed_mph": 213,
+        "zero60_s": 3.3,
+        "weight_kg": 1620,
+        "year": 1991,
+        "years": "1991–1995"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "560 hp",
+          "imperial": "560 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "343 km/h",
+          "imperial": "213 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.30 s",
+          "imperial": "3.30 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,620 kg",
+          "imperial": "3,571 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "3.5L quad-turbo V12",
+          "imperial": "3.5L quad-turbo V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (1991)",
+          "metric": "$300,000",
+          "imperial": "$300,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "1991",
+          "imperial": "1991",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "96 units",
+          "imperial": "96 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "koenigsegg-cc8s",
+      "name": "Koenigsegg CC8S",
+      "short": "CC8S",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Classic · 6 built",
+      "headline": "4.7L twin-supercharged V8",
+      "wiki": "Koenigsegg CC8S",
+      "core": {
+        "power_hp": 655,
+        "topspeed_mph": 240,
+        "zero60_s": 3.5,
+        "weight_kg": 1175,
+        "year": 2002,
+        "years": "2002–2003"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "655 hp",
+          "imperial": "655 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "386 km/h",
+          "imperial": "240 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.50 s",
+          "imperial": "3.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,175 kg",
+          "imperial": "2,590 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.7L twin-supercharged V8",
+          "imperial": "4.7L twin-supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2002)",
+          "metric": "$600,000",
+          "imperial": "$600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2002",
+          "imperial": "2002",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "6 units",
+          "imperial": "6 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "koenigsegg-ccr",
+      "name": "Koenigsegg CCR",
+      "short": "CCR",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Classic · 14 built",
+      "headline": "4.7L supercharged V8",
+      "wiki": "Koenigsegg CCR",
+      "core": {
+        "power_hp": 806,
+        "topspeed_mph": 241,
+        "zero60_s": 3.2,
+        "weight_kg": 1180,
+        "year": 2004,
+        "years": "2004–2006"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "806 hp",
+          "imperial": "806 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "388 km/h",
+          "imperial": "241 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.20 s",
+          "imperial": "3.20 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,180 kg",
+          "imperial": "2,601 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.7L supercharged V8",
+          "imperial": "4.7L supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2004)",
+          "metric": "$600,000",
+          "imperial": "$600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2004",
+          "imperial": "2004",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "14 units",
+          "imperial": "14 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "koenigsegg-ccx",
+      "name": "Koenigsegg CCX",
+      "short": "CCX",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Classic · 29 built",
+      "headline": "4.7L twin-supercharged V8",
+      "wiki": "Koenigsegg CCX",
+      "core": {
+        "power_hp": 795,
+        "topspeed_mph": 245,
+        "zero60_s": 3.2,
+        "weight_kg": 1180,
+        "year": 2006,
+        "years": "2006–2010"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "795 hp",
+          "imperial": "795 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "394 km/h",
+          "imperial": "245 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.20 s",
+          "imperial": "3.20 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,180 kg",
+          "imperial": "2,601 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.7L twin-supercharged V8",
+          "imperial": "4.7L twin-supercharged V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2006)",
+          "metric": "$600,000",
+          "imperial": "$600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2006",
+          "imperial": "2006",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "29 units",
+          "imperial": "29 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "koenigsegg-agera-r",
+      "name": "Koenigsegg Agera R",
+      "short": "Agera R",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Classic · 18 built",
+      "headline": "5.0L twin-turbo V8 (E85)",
+      "wiki": "Koenigsegg Agera",
+      "core": {
+        "power_hp": 1140,
+        "topspeed_mph": 273,
+        "zero60_s": 2.8,
+        "weight_kg": 1330,
+        "year": 2011,
+        "years": "2011–2014"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,140 hp",
+          "imperial": "1,140 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "439 km/h",
+          "imperial": "273 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,330 kg",
+          "imperial": "2,932 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8 (E85)",
+          "imperial": "5.0L twin-turbo V8 (E85)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2011)",
+          "metric": "$1,600,000",
+          "imperial": "$1,600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2011",
+          "imperial": "2011",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "~18 units",
+          "imperial": "~18 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "koenigsegg-jesko-absolut",
+      "name": "Koenigsegg Jesko Absolut",
+      "short": "Jesko Absolut",
+      "manufacturer": "Koenigsegg",
+      "category": "hypercar",
+      "cc": "SE",
+      "statusText": "Limited run · top-speed variant",
+      "headline": "5.0L twin-turbo V8",
+      "wiki": "Koenigsegg Jesko",
+      "core": {
+        "power_hp": 1600,
+        "topspeed_mph": 330,
+        "zero60_s": 2.5,
+        "weight_kg": 1320,
+        "year": 2020,
+        "years": "2020–present"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,600 hp",
+          "imperial": "1,600 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "531 km/h",
+          "imperial": "330 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,320 kg",
+          "imperial": "2,910 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.0L twin-turbo V8",
+          "imperial": "5.0L twin-turbo V8",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$3,400,000",
+          "imperial": "$3,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "part of 125-car Jesko run",
+          "imperial": "part of 125-car Jesko run",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "pagani-zonda-f",
+      "name": "Pagani Zonda F",
+      "short": "Zonda F",
+      "manufacturer": "Pagani",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 25 built",
+      "headline": "7.3L NA V12",
+      "wiki": "Pagani Zonda",
+      "core": {
+        "power_hp": 602,
+        "topspeed_mph": 214,
+        "zero60_s": 3.6,
+        "weight_kg": 1230,
+        "year": 2005,
+        "years": "2005–2006"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "602 hp",
+          "imperial": "602 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "344 km/h",
+          "imperial": "214 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.60 s",
+          "imperial": "3.60 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,230 kg",
+          "imperial": "2,712 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "7.3L NA V12",
+          "imperial": "7.3L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2005)",
+          "metric": "$667,000",
+          "imperial": "$667,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2005",
+          "imperial": "2005",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "25 units",
+          "imperial": "25 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "pagani-huayra",
+      "name": "Pagani Huayra",
+      "short": "Huayra",
+      "manufacturer": "Pagani",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Classic · 100 built",
+      "headline": "6.0L twin-turbo V12",
+      "wiki": "Pagani Huayra",
+      "core": {
+        "power_hp": 730,
+        "topspeed_mph": 224,
+        "zero60_s": 3.0,
+        "weight_kg": 1350,
+        "year": 2011,
+        "years": "2011–2018"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "730 hp",
+          "imperial": "730 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "360 km/h",
+          "imperial": "224 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "3.00 s",
+          "imperial": "3.00 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,350 kg",
+          "imperial": "2,976 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.0L twin-turbo V12",
+          "imperial": "6.0L twin-turbo V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2011)",
+          "metric": "$1,300,000",
+          "imperial": "$1,300,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2011",
+          "imperial": "2011",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "100 units",
+          "imperial": "100 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "pagani-huayra-bc",
+      "name": "Pagani Huayra BC",
+      "short": "Huayra BC",
+      "manufacturer": "Pagani",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Sold out · 20 built",
+      "headline": "6.0L twin-turbo V12",
+      "wiki": "Pagani Huayra",
+      "core": {
+        "power_hp": 750,
+        "topspeed_mph": 238,
+        "zero60_s": 2.8,
+        "weight_kg": 1218,
+        "year": 2016,
+        "years": "2016–2019"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "750 hp",
+          "imperial": "750 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "383 km/h",
+          "imperial": "238 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,218 kg",
+          "imperial": "2,685 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.0L twin-turbo V12",
+          "imperial": "6.0L twin-turbo V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2016)",
+          "metric": "$2,600,000",
+          "imperial": "$2,600,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2016",
+          "imperial": "2016",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "20 units",
+          "imperial": "20 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "pagani-imola",
+      "name": "Pagani Imola",
+      "short": "Imola",
+      "manufacturer": "Pagani",
+      "category": "hypercar",
+      "cc": "IT",
+      "statusText": "Sold out · 5 built",
+      "headline": "6.0L twin-turbo V12",
+      "wiki": "Pagani Huayra",
+      "core": {
+        "power_hp": 827,
+        "topspeed_mph": 222,
+        "zero60_s": 2.8,
+        "weight_kg": 1246,
+        "year": 2020,
+        "years": "2020–2021"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "827 hp",
+          "imperial": "827 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "357 km/h",
+          "imperial": "222 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.80 s",
+          "imperial": "2.80 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,246 kg",
+          "imperial": "2,747 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.0L twin-turbo V12",
+          "imperial": "6.0L twin-turbo V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2020)",
+          "metric": "$5,400,000",
+          "imperial": "$5,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2020",
+          "imperial": "2020",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "5 units",
+          "imperial": "5 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "lamborghini-temerario",
+      "name": "Lamborghini Temerario",
+      "short": "Temerario",
+      "manufacturer": "Lamborghini",
+      "category": "supercar",
+      "cc": "IT",
+      "statusText": "In production",
+      "headline": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+      "wiki": "Lamborghini Temerario",
+      "core": {
+        "power_hp": 920,
+        "topspeed_mph": 211,
+        "zero60_s": 2.7,
+        "weight_kg": 1690,
+        "year": 2026,
+        "years": "2026–present"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "920 hp",
+          "imperial": "920 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "340 km/h",
+          "imperial": "211 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.70 s",
+          "imperial": "2.70 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,690 kg",
+          "imperial": "3,726 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "imperial": "4.0L twin-turbo V8 + 3 e-motors (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$370,000",
+          "imperial": "$370,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "mclaren-solus-gt",
+      "name": "McLaren Solus GT",
+      "short": "Solus GT",
+      "manufacturer": "McLaren",
+      "category": "track-only",
+      "cc": "GB",
+      "statusText": "Sold out · 25 built",
+      "headline": "5.2L NA V10",
+      "wiki": "McLaren Solus GT",
+      "core": {
+        "power_hp": 829,
+        "topspeed_mph": 200,
+        "zero60_s": 2.5,
+        "weight_kg": 1000,
+        "year": 2022,
+        "years": "2022–2024"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "829 hp",
+          "imperial": "829 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "322 km/h",
+          "imperial": "200 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "0–60 mph",
+          "metric": "2.50 s",
+          "imperial": "2.50 s",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "1,000 kg",
+          "imperial": "2,205 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "5.2L NA V10",
+          "imperial": "5.2L NA V10",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2022)",
+          "metric": "$3,500,000",
+          "imperial": "$3,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2022",
+          "imperial": "2022",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "25 units",
+          "imperial": "25 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "red-bull-rb17",
+      "name": "Red Bull RB17",
+      "short": "RB17",
+      "manufacturer": "Red Bull",
+      "category": "track-only",
+      "cc": "GB",
+      "statusText": "Limited run · 50 units",
+      "headline": "4.5L NA V10 + e-motor (hybrid)",
+      "wiki": "Red Bull RB17",
+      "core": {
+        "power_hp": 1200,
+        "topspeed_mph": 217,
+        "zero60_s": null,
+        "weight_kg": 900,
+        "year": 2026,
+        "years": "2026–present"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,200 hp",
+          "imperial": "1,200 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "350 km/h",
+          "imperial": "217 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "Kerb weight",
+          "metric": "900 kg",
+          "imperial": "1,984 lb",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "4.5L NA V10 + e-motor (hybrid)",
+          "imperial": "4.5L NA V10 + e-motor (hybrid)",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2026)",
+          "metric": "$6,400,000",
+          "imperial": "$6,400,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2026",
+          "imperial": "2026",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "50 units",
+          "imperial": "50 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "aston-martin-valkyrie-amr-pro",
+      "name": "Aston Martin Valkyrie AMR Pro",
+      "short": "Valkyrie AMR Pro",
+      "manufacturer": "Aston Martin",
+      "category": "track-only",
+      "cc": "GB",
+      "statusText": "Sold out · 40 built",
+      "headline": "6.5L NA V12",
+      "wiki": "Aston Martin Valkyrie",
+      "core": {
+        "power_hp": 1000,
+        "topspeed_mph": 225,
+        "zero60_s": null,
+        "weight_kg": null,
+        "year": 2021,
+        "years": "2021–2022"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,000 hp",
+          "imperial": "1,000 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Top speed",
+          "metric": "362 km/h",
+          "imperial": "225 mph",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "6.5L NA V12",
+          "imperial": "6.5L NA V12",
+          "source": "Mfr"
+        },
+        {
+          "label": "Launch price (2021)",
+          "metric": "$3,500,000",
+          "imperial": "$3,500,000",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2021",
+          "imperial": "2021",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "40 units",
+          "imperial": "40 units",
+          "source": "Mfr"
+        }
+      ]
+    },
+    {
+      "slug": "bugatti-brouillard",
+      "name": "Bugatti Brouillard",
+      "short": "Brouillard",
+      "manufacturer": "Bugatti",
+      "category": "hypercar",
+      "cc": "FR",
+      "statusText": "One-off · 1 unit",
+      "headline": "8.0L quad-turbo W16",
+      "wiki": "Bugatti Brouillard",
+      "core": {
+        "power_hp": 1578,
+        "topspeed_mph": null,
+        "zero60_s": null,
+        "weight_kg": null,
+        "year": 2025,
+        "years": "2025"
+      },
+      "specs": [
+        {
+          "label": "Power",
+          "metric": "1,578 hp",
+          "imperial": "1,578 hp",
+          "source": "Mfr"
+        },
+        {
+          "label": "Powertrain",
+          "metric": "8.0L quad-turbo W16",
+          "imperial": "8.0L quad-turbo W16",
+          "source": "Mfr"
+        },
+        {
+          "label": "Transmission",
+          "metric": "7-speed dual-clutch",
+          "imperial": "7-speed dual-clutch",
+          "source": "Mfr"
+        },
+        {
+          "label": "Debut",
+          "metric": "2025",
+          "imperial": "2025",
+          "source": "Mfr"
+        },
+        {
+          "label": "Production",
+          "metric": "1 unit",
+          "imperial": "1 unit",
+          "source": "Mfr"
+        }
+      ]
+    }
+  ]
+}
