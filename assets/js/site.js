@@ -1,4 +1,4 @@
-/* hypercars.fyi — MEGA-NAV behaviour, ported from the aircraft.fyi engine. */
+/* hypercars.fyi - MEGA-NAV behaviour, ported from the aircraft.fyi engine. */
 (function () {
   'use strict';
   var mn = document.getElementById('mn'); if (!mn) return;
@@ -95,7 +95,7 @@
     if (e.matches) closeDrawer(); else closeAll();
   });
 
-  /* drawer accordions — single-open */
+  /* drawer accordions - single-open */
   var accs = [].slice.call(mn.querySelectorAll('.mn-acc'));
   accs.forEach(function (a) {
     var top = a.querySelector('.mn-acc-top'); if (!top) return;
@@ -144,7 +144,7 @@
   });
 })();
 
-/* ============ ANIMATED NAV BRAND — ported verbatim from luck.fyi ============ */
+/* ============ ANIMATED NAV BRAND - ported verbatim from luck.fyi ============ */
 /* 1. the .fyi expander */
 (function(){
   if(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -186,7 +186,7 @@
 (function(){
   var mbs=[].slice.call(document.querySelectorAll('.mn-mark .mm-b')); if(!mbs.length) return;
 
-  /* manufacturer-prefixed type codes — the way the industry actually says them */
+  /* manufacturer-prefixed type codes - the way the industry actually says them */
   var TYPES=['SF90','P1','F1','918','GT','MC20','T50','V16','W16','U9',
              'JES','LFA','CHI','REV','V12','GMA','C21','TSR','EVI','ONE'];
   var EMO=['🏎️','🏁','⚡','🔥','💨','🏆','🛞','🔧','🏎️','⚡'];
@@ -253,127 +253,7 @@
   apply('all');
 })();
 
-/* ---------- site search ---------- */
-(function(){
-  var dlg = document.getElementById('srch');
-  var input = document.getElementById('srchInput');
-  var list = document.getElementById('srchResults');
-  if (!dlg || !input || !list) return;
-  var IDX = window.SEARCH_INDEX || [];
-  var open = false, sel = -1, hits = [];
-  var esc = function(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; };
-
-  function score(item, q){
-    var t = item.t.toLowerCase();
-    if (t === q) return 100;
-    if (t.indexOf(q) === 0) return 80;
-    if (t.indexOf(q) > -1) return 60;
-    if (item.q.indexOf(q) > -1) return 40;
-    /* every word must appear somewhere */
-    var words = q.split(/\s+/).filter(Boolean);
-    if (words.length > 1 && words.every(function(w){ return item.q.indexOf(w) > -1; })) return 30;
-    return 0;
-  }
-  function render(){
-    var q = input.value.trim().toLowerCase();
-    if (!q){
-      list.innerHTML = '';
-      hits = [];
-      return;
-    }
-    hits = IDX.map(function(i){ return { i: i, s: score(i, q) }; })
-      .filter(function(x){ return x.s > 0; })
-      .sort(function(a, b){ return b.s - a.s || a.i.t.length - b.i.t.length; })
-      .slice(0, 8).map(function(x){ return x.i; });
-    sel = hits.length ? 0 : -1;
-    list.innerHTML = hits.length
-      ? hits.map(function(h, n){
-          return '<li role="option" aria-selected="' + (n === 0) + '" class="' + (n === 0 ? 'on' : '') + '">' +
-            '<a href="' + h.u + '"><span class="sr-k">' + esc(h.k) + '</span>' +
-            '<span class="sr-t">' + esc(h.t) + '</span>' +
-            '<span class="sr-d">' + esc(h.d || '') + '</span></a></li>'; }).join('')
-      : '<li class="srch-none">Nothing matches “' + esc(input.value) + '”.</li>';
-  }
-  function move(d){
-    if (!hits.length) return;
-    sel = (sel + d + hits.length) % hits.length;
-    [].forEach.call(list.children, function(li, n){
-      li.classList.toggle('on', n === sel);
-      li.setAttribute('aria-selected', String(n === sel));
-    });
-    var el = list.children[sel];
-    if (el && el.scrollIntoView) el.scrollIntoView({ block: 'nearest' });
-  }
-  function show(){
-    dlg.hidden = false; open = true;
-    document.body.style.overflow = 'hidden';
-    input.value = ''; render();
-    setTimeout(function(){ input.focus(); }, 20);
-  }
-  function hide(){
-    dlg.hidden = true; open = false;
-    document.body.style.overflow = '';
-  }
-  ['mnSearchBtn', 'mnSearchBtn2'].forEach(function(id){
-    var b = document.getElementById(id);
-    if (b) b.addEventListener('click', show);
-  });
-  /* ---- hero inline search: same index, same scoring, expands in place ---- */
-  (function () {
-    var wrap = document.getElementById('heroSearch');
-    var hIn  = document.getElementById('heroInput');
-    var hRes = document.getElementById('heroResults');
-    var hPh  = document.getElementById('heroPh');
-    if (!wrap || !hIn || !hRes) return;
-    function draw() {
-      var raw = hIn.value.trim(), q = raw.toLowerCase();
-      if (hPh) hPh.style.display = raw ? 'none' : '';
-      if (!q) { wrap.classList.remove('on'); hRes.innerHTML = ''; return; }
-      var out = IDX.map(function (i) { return { i: i, s: score(i, q) }; })
-        .filter(function (x) { return x.s > 0; })
-        .sort(function (a, b) { return b.s - a.s || a.i.t.length - b.i.t.length; })
-        .slice(0, 6).map(function (x) { return x.i; });
-      hRes.innerHTML = out.length
-        ? out.map(function (h) {
-            return '<li><a href="' + h.u + '"><span class="sr-k">' + esc(h.k) + '</span>' +
-              '<span class="sr-t">' + esc(h.t) + '</span>' +
-              '<span class="sr-d">' + esc(h.d || '') + '</span></a></li>'; }).join('')
-        : '<li class="srch-none">Nothing matches \u201C' + esc(raw) + '\u201D.</li>';
-      wrap.classList.add('on');
-    }
-    hIn.addEventListener('input', draw);
-    hIn.addEventListener('focus', function () { if (hPh) hPh.style.display = 'none'; });
-    hIn.addEventListener('blur', function () { if (hPh && !hIn.value) hPh.style.display = ''; });
-    hIn.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') { hIn.value = ''; draw(); hIn.blur(); }
-      if (e.key === 'Enter') { var a = hRes.querySelector('a'); if (a) window.location.href = a.getAttribute('href'); }
-    });
-    document.addEventListener('click', function (e) {
-      if (!wrap.contains(e.target)) wrap.classList.remove('on');
-    });
-  })();
-
-  var close = document.getElementById('srchClose');
-  if (close) close.addEventListener('click', hide);
-  var scrim = document.getElementById('srchScrim');
-  if (scrim) scrim.addEventListener('click', hide);
-  input.addEventListener('input', render);
-  document.addEventListener('keydown', function(e){
-    var ae = document.activeElement;
-    if (!open && e.key === '/' && !(ae && /^(INPUT|TEXTAREA|SELECT)$/.test(ae.tagName))){
-      e.preventDefault(); show(); return;
-    }
-    if (!open && (e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k'){
-      e.preventDefault(); show(); return;
-    }
-    if (!open) return;
-    if (e.key === 'Escape'){ e.preventDefault(); hide(); }
-    if (e.key === 'ArrowDown'){ e.preventDefault(); move(1); }
-    if (e.key === 'ArrowUp'){ e.preventDefault(); move(-1); }
-    if (e.key === 'Enter' && sel > -1 && hits[sel]){ e.preventDefault(); location.href = hits[sel].u; }
-  });
-})();
-
+/* ---------- site search: owned by search-kernel.js (both mounts) ---------- */
 
 /* ---------- fleet sort (home) ---------- */
 (function(){
@@ -429,7 +309,7 @@
     if (!t.length){ pill.hidden = true; return; }
     pill.hidden = false;
     if (t.length === 1){
-      go.textContent = '1 in tray — pick one more to compare';
+      go.textContent = '1 in tray, pick one more to compare';
       go.setAttribute('href', '/compare/tool#' + t[0]);
     } else {
       go.textContent = 'Compare ' + t.length + ' hypercars →';
@@ -452,7 +332,7 @@
 })();
 
 
-/* ---------- card grid columns — scoped: each bar controls only its own section ---------- */
+/* ---------- card grid columns - scoped: each bar controls only its own section ---------- */
 (function(){
   var bars = [].slice.call(document.querySelectorAll('.colsbar'));
   var grids = [].slice.call(document.querySelectorAll('.cardgrid'));
@@ -597,7 +477,7 @@
 /* ---------- type photography, fetched at load ----------
    No build step and no image folder: every aircraft page emits an empty .photoSlot and
    this fills it from Wikipedia + Wikimedia Commons. If anything at all is missing or
-   unfree the slot stays empty, and an empty slot is display:none — so a page without a
+   unfree the slot stays empty, and an empty slot is display:none - so a page without a
    usable free photograph simply has no card rather than a gap or a placeholder. */
 (function () {
   var slots = [].slice.call(document.querySelectorAll('.photoSlot'));
@@ -612,7 +492,7 @@
      contain line breaks. */
   var BAD = /(interior|cockpit|dashboard|engine[ _-]?bay|wheel|badge|logo|gearbox|brake|caliper|crash|wreck|replica|scale[ _-]?model|model|lego|toy|factory|assembly|chassis|cutaway|rear[ _-]?light|tail[ _-]?light|detail|diagram|schematic|patent|spy|render)/i;
 
-  /* AIRCRAFT CATEGORY GATE — the real fix for ambiguous names.
+  /* AIRCRAFT CATEGORY GATE - the real fix for ambiguous names.
      Aircraft names are overwhelmingly common nouns: Eagle, Falcon, Harrier, Comet,
      Vulcan, Spirit, Archer, Gripen. Wikipedia returns the bird or the Roman god with a
      perfectly valid free image and the card renders a lie. Checking the article's
@@ -665,7 +545,7 @@
       var pg    = pages && pages[0];
       var orig  = pg && pg.original;
       if (!orig || !orig.source) return null;                    /* no article or image */
-      /* the categories ride along on this same request — no extra round trip */
+      /* the categories ride along on this same request - no extra round trip */
       var cats = (pg.categories || []).map(function (c) { return c.title || ''; }).join(' | ');
       var isCar = CARCAT.test(cats);
       if (!isCar) return null;                                   /* not a car article */
@@ -692,14 +572,14 @@
         src: ii.thumburl || ii.url, author: author, license: lic,
         licenseUrl: licUrl, source: ii.descriptionurl || ''
       });
-    }).catch(function () { /* offline, blocked, rate limited — slot stays empty */ });
+    }).catch(function () { /* offline, blocked, rate limited - slot stays empty */ });
   });
 })();
 
 /* ---------- reveal on scroll ----------
    Sections fade up as a block. Card grids fade up a ROW AT A TIME, and the
    rows are worked out from real geometry (offsetTop) rather than from an
-   assumed column count — so it follows whatever the grid is actually doing:
+   assumed column count - so it follows whatever the grid is actually doing:
    1 or 2 up on a phone, 2/3/4 on desktop, and it survives the full-width
    interludes sitting inside the grid. Regrouped on resize and after any
    filter or sort, since both change which cards share a row. */

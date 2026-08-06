@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------
-   hypercars.fyi — Apex Line
+   hypercars.fyi - Apex Line
    Built to the Gate Runner architecture guide. The four failures that
    guide documents are handled up front rather than discovered later:
 
@@ -9,7 +9,7 @@
                     never the steering input. Same input leans far more
                     at 300 km/h than at 60.
      §3.3 ENERGY    grip is a budget, not a constant. Downforce grows
-                    with v², so the car corners harder fast than slow —
+                    with v², so the car corners harder fast than slow -
                     and braking distance grows with v² too.
      §3.4 COUPLING  the friction circle. Grip spent cornering is not
                     available for braking or acceleration. That one
@@ -30,7 +30,7 @@
   try { reduce = window.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches; } catch (e) {}
 
   /* Width is FIXED and the height follows the device. Horizontal scale is
-     what the game is judged on — the car against the width of the road —
+     what the game is judged on - the car against the width of the road -
      so it has to be identical everywhere. Tall screens get more sky. */
   var W = 1000, H = 600, CX = W / 2, FOCAL = 1100;
   /* Horizon placement has to ADAPT to the frame. Fixed at 0.56 it looked
@@ -40,7 +40,7 @@
   var HZ_BASE = 0.56, SKY_MAX = 620;
   /* The wheel and pedals sit over the foot of the frame. Rather than
      reserving an empty band there, the stage is simply TALLER on a
-     phone — more sky above the horizon, more road below it — and the
+     phone - more sky above the horizon, more road below it - and the
      car rides higher up the frame. The tarmac carries on behind the
      controls, so there is no void to look at. */
   var CAR_LIFT = 0.07;     /* how far above the frame's foot the car sits */
@@ -77,7 +77,7 @@
     /* The controls are a FIXED pixel size, so a fixed fraction of the
        frame does not clear them in landscape, where the stage is short.
        Derive the lift from the real element height instead. */
-    /* Measure the controls rather than guessing a pixel band — the guess
+    /* Measure the controls rather than guessing a pixel band - the guess
        does not survive a landscape phone, where the stage is short. */
     var band = 0;
     ['apexStick', 'apexThr', 'apexBrk'].forEach(function (id) {
@@ -96,8 +96,8 @@
     while (svg.firstChild) svg.removeChild(svg.firstChild);
     var defs = el('defs', {});
     var sky = el('linearGradient', { id: 'apxSky', x1: '0', y1: '0', x2: '0', y2: '1' }, defs);
-    el('stop', { offset: '0', 'stop-color': '#C9DCEE' }, sky);
-    el('stop', { offset: '1', 'stop-color': '#EDF2F7' }, sky);
+    el('stop', { offset: '0', 'stop-color': '#0A0910' }, sky);
+    el('stop', { offset: '1', 'stop-color': '#2A1116' }, sky);
     var clip = el('clipPath', { id: 'apxClip' }, defs);
     el('rect', { x: 0, y: 0, width: W, height: H }, clip);
     L.world = el('g', { 'clip-path': 'url(#apxClip)' });
@@ -105,7 +105,7 @@
     /* the WORLD leans, not one layer of it */
     L.roll = el('g', {}, L.world);
     L.sky = el('rect', { x: CX - R * 2, y: -R * 2, width: R * 4, height: R * 3, fill: 'url(#apxSky)' }, L.roll);
-    L.ground = el('rect', { x: CX - R * 2, y: 0, width: R * 4, height: R * 3, fill: '#5C7F5F' }, L.roll);
+    L.ground = el('rect', { x: CX - R * 2, y: 0, width: R * 4, height: R * 3, fill: '#14100C' }, L.roll);
     L.road = el('g', {}, L.roll);
     L.marks = el('g', {}, L.roll);
     L.gates = el('g', {}, L.roll);
@@ -133,7 +133,7 @@
     /* downforce: the counter-intuitive bit worth teaching */
     var DF = c.cat === 'track-only' ? 0.95 : (c.cat === 'hyper-ev' ? 0.42 : 0.60);
     /* a straight mass ratio made heavy cars unplayable, so this is a
-       fractional power — it compresses the range without reordering it */
+       fractional power - it compresses the range without reordering it */
     var agility = clamp(0.55, 1.75, Math.pow(1450 / mass, 0.20) * (CLASS_AGI[c.cat] || 1));
 
     return { mass: mass, hp: hp, vmax: vmax, pw: pw, aLaunch: aLaunch, Pmax: Pmax,
@@ -151,7 +151,7 @@
   /* ---------- corner generation ----------
      Corners are not chosen from a table of types. A radius is drawn from a
      CONTINUOUS log-uniform distribution and a turn angle is drawn with it,
-     so every corner in a run is its own radius and its own length — there
+     so every corner in a run is its own radius and its own length - there
      is no finite set of shapes to learn. Arc length follows from the two
      (length = R x angle), which is why a hairpin is short and a sweeper is
      long without either being written down anywhere.
@@ -179,7 +179,7 @@
        skew moves toward the tight end as the ramp climbs */
     var u = Math.pow(rng(), 0.55 + 1.15 * r);
     var R = R_MIN * Math.pow(R_MAX / R_MIN, u);
-    /* how far the corner turns through, in radians — a continuous spread
+    /* how far the corner turns through, in radians - a continuous spread
        from a flick to well past a right angle */
     var theta = 0.34 + Math.pow(rng(), 0.8) * 2.5;
     var len = Math.round(R * theta / SEG);
@@ -283,7 +283,7 @@
     var box = document.getElementById('apexStick');
     if (!box) return;
     var knob = document.getElementById('apexStickKnob'), id = null, MAX = 46;
-    /* Squared response with a dead zone, and the remainder RESCALED — skip
+    /* Squared response with a dead zone, and the remainder RESCALED - skip
        the rescale and the stick caps at 0.85 authority and feels weak at
        the stops for no visible reason. */
     function resp(v) {
@@ -300,7 +300,7 @@
       if (d > MAX) { dx = dx / d * MAX; dy = dy / d * MAX; }   /* clamp to the gate */
       if (knob) knob.style.transform = 'translate(' + dx.toFixed(1) + 'px,' + dy.toFixed(1) + 'px)';
       /* Steering only. The vertical axis is deliberately NOT wired to the
-         pedals — it exists so that moving off-centre shortens the x-travel
+         pedals - it exists so that moving off-centre shortens the x-travel
          left inside the circular gate, which is what buys you fine control
          near centre and still gives full lock at the rim. Throttle and
          brake stay on their own pads, where a thumb can hold them. */
@@ -381,7 +381,7 @@
     /* A car yaws because its wheels are ROLLING: yaw rate = speed x
        curvature. The old form was a bare rate that stayed finite at a
        standstill, so a parked car span on the spot when you touched the
-       steering. Steering now sets CURVATURE, and speed does the turning —
+       steering. Steering now sets CURVATURE, and speed does the turning -
        which also gives the right feel for free: tight at walking pace,
        and grip-limited rather than lock-limited once you are moving. */
     var KAPPA = 0.075;                            /* full lock ~13 m radius */
@@ -414,11 +414,11 @@
     /* ---------- §3.2 attitude follows LOAD ---------- */
     s.lean += (clamp(-1, 1, s.latG / 1.6) * 7.5 - s.lean) * Math.min(1, dt * 5.5);
 
-    /* keep laying circuit ahead of the car — it never ends and never wraps */
+    /* keep laying circuit ahead of the car - it never ends and never wraps */
     if (s.node > trackLen - 260) { extendTrack(rnd, 420); trimTrack(s); }
     var node = locate(s);
     s.off = Math.abs(s.lat) > ROAD_HALF;
-    /* Off the tarmac is survivable, but not indefinitely — three seconds
+    /* Off the tarmac is survivable, but not indefinitely - three seconds
        on the grass and the run resets. Only counted while actually
        moving, so a stationary car is never punished for sitting still. */
     s.offTime = s.off ? s.offTime + dt : 0;
@@ -434,7 +434,7 @@
       node.taken = true; s.checks++;
       var add = Math.max(5, 11 - s.checks * 0.35);
       s.time += add;
-      flash('#1E7A44'); pop('+' + add.toFixed(0) + 's');
+      flash('#3FBF77'); pop('+' + add.toFixed(0) + 's');
       if (s.checks % 2 === 1) showFigure(s);
     }
     s.time -= dt;
@@ -445,7 +445,7 @@
     hud.score.textContent = s.score.toLocaleString();
     hud.time.textContent = s.time.toFixed(1);
     if (hud.g) hud.g.textContent = Math.abs(s.latG).toFixed(2);
-    if (hud.time.parentNode) hud.time.parentNode.style.color = s.time < 5 ? '#B01B2E' : '';
+    if (hud.time.parentNode) hud.time.parentNode.style.color = s.time < 5 ? '#FF5A6E' : '';
     raf = requestAnimationFrame(step);
   }
 
@@ -500,19 +500,19 @@
       var bL = edgeAt(pn, -1, 1), bR = edgeAt(pn, 1, 1);
       if (!aL || !aR || !bL || !bR) continue;
       var fog = Math.min(1, Math.pow(i / DRAW, 3.0));
-      quad(bL, bR, aR, aL, mixHex(idx % 2 ? '#3B3A38' : '#343331', '#5C7F5F', fog * 0.82));
+      quad(bL, bR, aR, aL, mixHex(idx % 2 ? '#2E2B29' : '#282523', '#17100F', fog * 0.82));
       nearest = { aL: aL, aR: aR, bL: bL, bR: bR, idx: idx };
       /* kerbs */
-      var kc = (Math.floor(idx / 3) % 2) ? '#B01B2E' : '#F2F4F7';
+      var kc = (Math.floor(idx / 3) % 2) ? '#D82F44' : '#EFE8DA';
       var aLo = edgeAt(n, -1, 1.26), bLo = edgeAt(pn, -1, 1.26);
       var aRo = edgeAt(n, 1, 1.26), bRo = edgeAt(pn, 1, 1.26);
-      if (aLo && bLo) quad(bL, bLo, aLo, aL, mixHex(kc, '#5C7F5F', fog * 0.82));
-      if (aRo && bRo) quad(bR, bRo, aRo, aR, mixHex(kc, '#5C7F5F', fog * 0.82));
+      if (aLo && bLo) quad(bL, bLo, aLo, aL, mixHex(kc, '#17100F', fog * 0.82));
+      if (aRo && bRo) quad(bR, bRo, aRo, aR, mixHex(kc, '#17100F', fog * 0.82));
       /* dashed centre line */
       if (Math.floor(idx / 2) % 2 === 0 && fog < 0.9) {
         el('line', { x1: ((bL.x + bR.x) / 2).toFixed(1), y1: ((bL.y + bR.y) / 2).toFixed(1),
           x2: ((aL.x + aR.x) / 2).toFixed(1), y2: ((aL.y + aR.y) / 2).toFixed(1),
-          stroke: '#E9EDF2', 'stroke-width': Math.max(1, 0.3 * aL.k).toFixed(1),
+          stroke: '#D9CDB8', 'stroke-width': Math.max(1, 0.3 * aL.k).toFixed(1),
           opacity: (0.5 * (1 - fog)).toFixed(2) }, L.marks);
       }
       /* checkpoint arch */
@@ -522,10 +522,10 @@
           'L' + aL.x.toFixed(1) + ' ' + (aL.y - hgt).toFixed(1) +
           'L' + aR.x.toFixed(1) + ' ' + (aR.y - hgt).toFixed(1) +
           'L' + aR.x.toFixed(1) + ' ' + aR.y.toFixed(1),
-          fill: 'none', stroke: '#8C99A6', 'stroke-width': Math.max(1.4, 0.55 * aL.k).toFixed(1),
+          fill: 'none', stroke: '#8A7B65', 'stroke-width': Math.max(1.4, 0.55 * aL.k).toFixed(1),
           opacity: (1 - fog).toFixed(2) }, L.gates);
         el('text', { x: ((aL.x + aR.x) / 2).toFixed(1), y: ((aL.y + aR.y) / 2 - hgt * 0.66).toFixed(1),
-          'text-anchor': 'middle', fill: '#1A1410', 'font-weight': 700,
+          'text-anchor': 'middle', fill: '#F1E9DB', 'font-weight': 700,
           'font-size': Math.max(9, 1.6 * aL.k).toFixed(0),
           'font-family': 'Play, system-ui, sans-serif',
           opacity: (0.92 * (1 - fog)).toFixed(2) }, L.gates).textContent = '+TIME';
@@ -543,8 +543,8 @@
         return { x: near.x + (near.x - far.x) * t, y: H + 60 };
       };
       var xL = run(nearest.aL, nearest.bL), xR = run(nearest.aR, nearest.bR);
-      quad(xL, xR, nearest.bR, nearest.bL, nearest.idx % 2 ? '#3B3A38' : '#343331');
-      var kc2 = (Math.floor((nearest.idx - 1) / 3) % 2) ? '#B01B2E' : '#F2F4F7';
+      quad(xL, xR, nearest.bR, nearest.bL, nearest.idx % 2 ? '#2E2B29' : '#282523');
+      var kc2 = (Math.floor((nearest.idx - 1) / 3) % 2) ? '#D82F44' : '#EFE8DA';
       var oL = edgeAt(TRACK[nearest.idx - 1], -1, 1.26), oR = edgeAt(TRACK[nearest.idx - 1], 1, 1.26);
       var fL = edgeAt(TRACK[nearest.idx], -1, 1.26), fR = edgeAt(TRACK[nearest.idx], 1, 1.26);
       if (oL && fL) quad(run(fL, oL), oL, nearest.bL, xL, kc2);
@@ -553,15 +553,15 @@
     drawCar();
   }
 
-  /* The car is RIGID — §9.4 says vehicles do not deform, so it is never
+  /* The car is RIGID - §9.4 says vehicles do not deform, so it is never
      scaled or squashed. It slides across the frame and leans, nothing more. */
   /* Every car is drawn from its own derived proportions: mass sets how wide
      and heavy it looks, power-to-weight how low it sits, and its class sets
-     the wing. It is still RIGID (§9.4) — nothing is squashed at runtime. */
+     the wing. It is still RIGID (§9.4) - nothing is squashed at runtime. */
   function drawCar() {
     var s = S;
     while (L.self.firstChild) L.self.removeChild(L.self.firstChild);
-    var col = s.c.col || '#B01B2E';
+    var col = s.c.col || '#D82F44';
     var B = s.c.b || { bw: 1, rf: 1, wg: 0.8, st: 1 };
     var cw = W * 0.20, ch = cw * 0.46;
     var bw = B.bw, st = B.st, rf = B.rf, wg = B.wg;
@@ -570,11 +570,11 @@
     var g = el('g', { transform: 'translate(' + cx.toFixed(1) + ',' + cy.toFixed(1) +
       ') rotate(' + (s.lean * 0.5).toFixed(2) + ')' }, L.self);
     el('ellipse', { cx: 0, cy: ch * 0.96, rx: cw * 0.52 * bw, ry: ch * 0.13, fill: 'rgba(20,16,12,.26)' }, g);
-    /* tyres — track width comes from the stance figure */
+    /* tyres - track width comes from the stance figure */
     var tx = cw * 0.54 * st, tw = cw * 0.16 * st;
     el('rect', { x: -tx, y: ch * 0.34, width: tw, height: ch * 0.6, rx: ch * 0.1, fill: '#191C20' }, g);
     el('rect', { x: tx - tw, y: ch * 0.34, width: tw, height: ch * 0.6, rx: ch * 0.1, fill: '#191C20' }, g);
-    /* wing — a track-only car wears a big one, a saloon barely any */
+    /* wing - a track-only car wears a big one, a saloon barely any */
     if (wg > 0.30) {
       var ww = cw * 0.52 * Math.min(1.25, wg), wh = ch * 0.13 * Math.min(1.4, wg);
       el('rect', { x: -ww, y: -ch * 0.08 - wh, width: ww * 2, height: wh, rx: 3, fill: shade(col, -0.34) }, g);
@@ -587,7 +587,7 @@
       'L' + (-sx).toFixed(1) + ' ' + (ch * 0.10).toFixed(1) +
       'Q0 ' + (-ch * 0.06).toFixed(1) + ' ' + sx.toFixed(1) + ' ' + (ch * 0.10).toFixed(1) +
       'L' + bx.toFixed(1) + ' ' + (ch * 0.86).toFixed(1) + 'Z', fill: col }, g);
-    /* greenhouse — taller on a saloon, letterbox-thin on something low */
+    /* greenhouse - taller on a saloon, letterbox-thin on something low */
     var gx = cw * 0.26 * bw, gt = ch * 0.30 - ch * 0.22 * (rf - 0.9);
     el('path', { d: 'M' + (-gx).toFixed(1) + ' ' + (ch * 0.30).toFixed(1) +
       'L' + (-gx * 0.85).toFixed(1) + ' ' + gt.toFixed(1) +
@@ -599,8 +599,8 @@
     el('rect', { x: bx * 0.87 - lw, y: ch * 0.60, width: lw, height: ch * 0.11, rx: 2, fill: '#E0C15A' }, g);
     if (s.slip > 0.02) {
       var o = Math.min(0.72, s.slip);
-      el('ellipse', { cx: -tx, cy: ch * 0.92, rx: cw * 0.17, ry: ch * 0.13, fill: '#DCE4EC', opacity: o.toFixed(2) }, g);
-      el('ellipse', { cx: tx, cy: ch * 0.92, rx: cw * 0.17, ry: ch * 0.13, fill: '#DCE4EC', opacity: o.toFixed(2) }, g);
+      el('ellipse', { cx: -tx, cy: ch * 0.92, rx: cw * 0.17, ry: ch * 0.13, fill: '#050404', opacity: o.toFixed(2) }, g);
+      el('ellipse', { cx: tx, cy: ch * 0.92, rx: cw * 0.17, ry: ch * 0.13, fill: '#050404', opacity: o.toFixed(2) }, g);
     }
   }
   function shade(hex, amt) {
@@ -613,14 +613,14 @@
     var r = el('rect', { x: 0, y: 0, width: W, height: H, fill: c, opacity: 0.2 }, L.fx);
     setTimeout(function () { if (r.parentNode) r.parentNode.removeChild(r); }, 110);
   }
-  /* §9.2 — three real lines with occupancy tracking. A line is freed only
+  /* §9.2 - three real lines with occupancy tracking. A line is freed only
      when its message is removed, and drift is capped inside the spacing. */
   var POP = [null, null, null], POP_GAP = 54;
   function pop(txt) {
     var slot = POP.indexOf(null);
     if (slot < 0) { slot = 0; if (POP[0] && POP[0].parentNode) POP[0].parentNode.removeChild(POP[0]); }
     var y0 = H * 0.26 - slot * POP_GAP;
-    var t = el('text', { x: CX, y: y0, 'text-anchor': 'middle', fill: '#1B7F3B', 'font-size': 40,
+    var t = el('text', { x: CX, y: y0, 'text-anchor': 'middle', fill: '#3FBF77', 'font-size': 40,
       'font-weight': 700, 'font-family': 'Play, system-ui, sans-serif', opacity: 0.95 }, L.fx);
     t.textContent = txt;
     POP[slot] = t;
@@ -641,10 +641,10 @@
   var FLEET = window.DRIVE_FLEET;
   function figuresFor(c) {
     var out = [];
-    if (c.w) out.push(Math.round(c.p / c.w * 1000).toLocaleString() + ' hp per tonne — that is the grip you can feel');
+    if (c.w) out.push(Math.round(c.p / c.w * 1000).toLocaleString() + ' hp per tonne, that is the grip you can feel');
     out.push(c.p.toLocaleString() + ' hp' + (c.w ? ' moving ' + c.w.toLocaleString() + ' kg' : ''));
     if (c.ts) out.push(c.ts + ' mph flat out, and downforce climbs with the square of speed');
-    if (c.z) out.push('0–60 in ' + c.z.toFixed(2) + ' s — ' + (26.82 / c.z / 9.81).toFixed(2) + ' g off the line');
+    if (c.z) out.push('0–60 in ' + c.z.toFixed(2) + ' s, ' + (26.82 / c.z / 9.81).toFixed(2) + ' g off the line');
     out.push('Braking distance grows with the square of speed. Brake earlier than feels right.');
     out.push('Grip spent turning is grip you cannot brake with. That is the whole game.');
     return out;
@@ -758,13 +758,13 @@
     overB.textContent = 'You covered ' + sc.toLocaleString() + ' m in the ' + car.n + ', through ' +
       S.checks + ' checkpoint' + (S.checks === 1 ? '' : 's') + '. ' +
       (st.pw > 1.0
-        ? 'At ' + Math.round(st.pw * 1000).toLocaleString() + ' hp per tonne it will out-drag almost anything here — but the same tyres cannot brake and turn at the same time.'
+        ? 'At ' + Math.round(st.pw * 1000).toLocaleString() + ' hp per tonne it will out-drag almost anything here, but the same tyres cannot brake and turn at the same time.'
         : 'At ' + Math.round(st.pw * 1000).toLocaleString() + ' hp per tonne the time is in the corners, not the straights.');
     var cta = document.getElementById('apexCta');
     if (cta) { cta.href = '/hypercars/' + car.s; cta.textContent = 'About the ' + car.n; }
     var share = document.getElementById('apexShare');
     if (share) share.onclick = function () {
-      var line = 'Apex Line — ' + car.n + ': ' + sc.toLocaleString() + ' m, ' + S.checks + ' checkpoints' + (daily ? ' (daily)' : '') + '.';
+      var line = 'Apex Line, ' + car.n + ': ' + sc.toLocaleString() + ' m, ' + S.checks + ' checkpoints' + (daily ? ' (daily)' : '') + '.';
       var url = 'https://hypercars.fyi/apex';
       function done(m) { share.textContent = m; setTimeout(function () { share.textContent = 'Share result'; }, 1500); }
       if (navigator.share) {
@@ -789,7 +789,7 @@
   }
 
   /* ===================== start / restart =====================
-     §9.1 — a run always begins from a fully-derived clean state. No
+     §9.1 - a run always begins from a fully-derived clean state. No
      speed, throttle or steering carried over from the last attempt. */
   function start() {
     if (daily) dailyRng = mulberry(hashOf(todayKey()));
@@ -810,11 +810,11 @@
   }
   function offReset() {
     running = false; cancelAnimationFrame(raf);
-    flash('#B01B2E');
-    var t = el('text', { x: CX, y: H * 0.42, 'text-anchor': 'middle', fill: '#B01B2E',
+    flash('#D82F44');
+    var t = el('text', { x: CX, y: H * 0.42, 'text-anchor': 'middle', fill: '#FF4D62',
       'font-size': 46, 'font-weight': 700, 'font-family': 'Play, system-ui, sans-serif' }, L.fx);
     t.textContent = 'Off the track';
-    var t2 = el('text', { x: CX, y: H * 0.42 + 46, 'text-anchor': 'middle', fill: '#4C5864',
+    var t2 = el('text', { x: CX, y: H * 0.42 + 46, 'text-anchor': 'middle', fill: '#B8AC9C',
       'font-size': 24, 'font-weight': 700, 'font-family': 'Play, system-ui, sans-serif' }, L.fx);
     t2.textContent = 'Restarting\u2026';
     setTimeout(start, 900);        /* start() rebuilds the scene, clearing these */
@@ -844,7 +844,7 @@
   window.addEventListener('resize', refit);
   window.addEventListener('orientationchange', refit);
 
-  /* Bind everything BEFORE any early return — an earlier engine bailed on
+  /* Bind everything BEFORE any early return - an earlier engine bailed on
      reduced motion before wiring listeners and left the game dead. */
   paintBands(); paintGrid(); paintDaily();
   resetTrack(Math.random);
